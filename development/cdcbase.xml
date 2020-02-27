@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- configure remote for the cdcbase - project -->
+	<remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase"  alias="origin" revision="development" />
+
 	<include name="development/yocto/cdcbase_yocto.xml"/>
 	<include name="development/android/cdcbase_android.xml"/>
 	<include name="development/autosar/cdcbase_autosar.xml"/>

@@ -26,12 +26,9 @@
 		<project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
 		<project name="Automotive_AHH3_v9_meta-samsung-hcp3-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9" revision="92a2cd0975120e4ae2988e1ce00f352652aab7c5" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
 		<project name="Automotive_AHH3_v9_hyp_meta-vl.git"          path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9" revision="597af40675d753416b10c8f58d8e1c6a06df2bab" upstream="exynosauto9_dev_200114"      groups="yocto"/>
-
-		<!-- configure remote for -->
-		<remote fetch="ssh://git@stash.alm.mentorg.com:7999/~cbruder"  name="cbruder"  alias="origin" revision="development" />
 		
 		<!-- add Mentor adaptations for Samsung BSP-->
-		<project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cbruder" upstream="development" groups="yocto"/>
+		<project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase" upstream="development" groups="yocto"/>
 	
 	<!-- -->
 </manifest>
