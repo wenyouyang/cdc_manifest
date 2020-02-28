@@ -14,15 +14,25 @@ This folder contains the manifest for the yocto development of CDCBase.
 Please see the README.md in the parent folder.
 
 
-**Build Instructions**   
+**Build Instructions for Baremetal**
 
-    export TEMPLATECONF=$PWD/meta-mentor-samsung-bsp/conf/<variant>/
+    export TEMPLATECONF=$PWD/meta-mentor-samsung-bsp/conf/bare_<variant>/
     . ./poky/oe-init-build-env
     bitbake core-image-bare
 
 With &lt;variant>:
 
-* "bare_evt0"	-	Baremetal for EVT0-Revision
-* "bare_evt1"	-	Baremetal for EVT1-Revision
-* "sys_evt0"	-	System Hypervisior-Partition for EVT0-Revision
-* "sys_evt1"	-	System Hypervisior-Partition for EVT1-Revision
+* "evt0"
+* "evt1"
+
+
+**Build Instructions for Hypervisor - Domain "SYS"**
+
+    export TEMPLATECONF=$PWD/meta-mentor-samsung-bsp/conf/sys_<variant>/
+    . ./poky/oe-init-build-env
+    bitbake sys-domain
+
+With &lt;variant>:
+
+* "evt0"
+* "evt1"
