@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Yocto Open-source software -->
-		<!-- configure remote for openembedded Project on github -->
-		<remote fetch="git://github.com/openembedded" name="oe_github" alias="origin" revision="zeus"/>
-
-		<!-- configure remote for yoctoproject -->
-		<remote fetch="git://git.yoctoproject.org" name="yocto" alias="origin" revision="zeus"/>
-
-		<!-- configure remote for kraj (meta-clang) -->
-		<remote fetch="git://github.com/kraj/" name="kraj" alias="origin" revision="zeus"/>
+		<!-- configure remote for Thirdparty Open Source Software -->
+		<remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_yocto" alias="origin" revision="zeus"/>
 
 		<!-- configure remote for the cdcbase - project -->
 		<remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_yocto"  alias="origin" revision="development" />
 
 		<!-- add Yocto 3.0/Zeus layers -->
-		<project name="poky"                    path="yocto/poky"                remote="yocto"     revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus" groups="yocto"/>
-		<project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="yocto"     revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus" groups="yocto"/>
-		<project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="oe_github" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus" groups="yocto"/>
-		<project name="meta-clang.git"          path="yocto/meta-clang"          remote="kraj"      revision="9cab6bc46cf44d13f8fea3b827e298a4f6e16b17" upstream="zeus" groups="yocto"/>
-		<project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="yocto"     revision="3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b" upstream="zeus" groups="yocto"/>
+		<project name="poky"                    path="yocto/poky"                remote="tposs_yocto" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus" groups="yocto"/>
+		<project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="tposs_yocto" revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus" groups="yocto"/>
+		<project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus" groups="yocto"/>
+		<project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="9cab6bc46cf44d13f8fea3b827e298a4f6e16b17" upstream="zeus" groups="yocto"/>
+		<project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b" upstream="zeus" groups="yocto"/>
 
 	<!-- Yocto BSP Layers for Samsung-->
 		<!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
-		<remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9" alias="origin" revision="exynosauto9_dev_thud_200114" />
+		<remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
 
 		<!-- add Samsung Automotive Development Kit BSP (v2.4.0) layers -->
-		<project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
-		<project name="Automotive_AHH3_v9_meta-samsung-hcp3-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9" revision="92a2cd0975120e4ae2988e1ce00f352652aab7c5" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
-		<project name="Automotive_AHH3_v9_hyp_meta-vl.git"          path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9" revision="597af40675d753416b10c8f58d8e1c6a06df2bab" upstream="exynosauto9_dev_200114"      groups="yocto"/>
+		<project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
+		<project name="Automotive_AHH3_v9_meta-samsung-hcp3-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="92a2cd0975120e4ae2988e1ce00f352652aab7c5" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
+		<project name="Automotive_AHH3_v9_hyp_meta-vl.git"          path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="597af40675d753416b10c8f58d8e1c6a06df2bab" upstream="exynosauto9_dev_200114"      groups="yocto"/>
 		
 		<!-- add Mentor adaptations for Samsung BSP-->
 		<project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
-	
-	<!-- -->
 </manifest>
