@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Yocto Open-source software -->
+    <!-- Remotes -->
         <!-- configure remote for Thirdparty Open Source Software -->
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_yocto" alias="origin" revision="zeus"/>
 
         <!-- configure remote for the cdcbase - project -->
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_yocto"  alias="origin" revision="development" />
 
+        <!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
+
+    <!-- Yocto Open-source software -->
         <!-- add Yocto 3.0/Zeus layers -->
         <project name="poky"                    path="yocto/poky"                remote="tposs_yocto" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus" groups="yocto"/>
         <project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="tposs_yocto" revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus" groups="yocto"/>
@@ -14,9 +18,10 @@
         <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="9cab6bc46cf44d13f8fea3b827e298a4f6e16b17" upstream="zeus" groups="yocto"/>
         <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b" upstream="zeus" groups="yocto"/>
 
+    <!-- cdcbase - project layers -->
+        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+
     <!-- Yocto BSP Layers for Samsung-->
-        <!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
-        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
 
         <!-- add Samsung Automotive Development Kit BSP (v2.4.0) layers -->
         <project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
