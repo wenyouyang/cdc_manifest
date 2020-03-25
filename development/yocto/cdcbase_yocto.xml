@@ -19,15 +19,16 @@
         <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b" upstream="zeus" groups="yocto"/>
 
     <!-- cdcbase - project layers -->
+        <!-- add generic meta-mentor-cdcbase layer -->
         <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 
-    <!-- Yocto BSP Layers for Samsung-->
+    <!-- Yocto BSP Layers for Samsung -->
 
         <!-- add Samsung Automotive Development Kit BSP (v2.4.0) layers -->
         <project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
         <project name="Automotive_AHH3_v9_meta-samsung-hcp3-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="92a2cd0975120e4ae2988e1ce00f352652aab7c5" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
         <project name="Automotive_AHH3_v9_hyp_meta-vl.git"          path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="597af40675d753416b10c8f58d8e1c6a06df2bab" upstream="exynosauto9_dev_200114"      groups="yocto"/>
 
-        <!-- add Mentor adaptations for Samsung BSP-->
+        <!-- add Mentor adaptations for Samsung BSP -->
         <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 </manifest>
