@@ -13,18 +13,32 @@ This folder contains the manifest for the yocto development of CDCBase.
 
 Please see the README.md in the parent folder.
 
+How to build a Image for a Machine
+----------------------------------
+    DISTRO=<distro> . ./meta-mentor-cdcbase/setup-environment [-b build-dir] <Machine>
+    bitbake <image>
 
-**Build Instructions for Image (Hypervisor - Domain "SYS" on EVT1 - Hardware)**
+### Supported Machines
+| Machine     | Layer                   | Target / Board                           | Hypervisor-Partition |
+|:------------|:------------------------|:-----------------------------------------|:---------------------|
+| samsung-adk | meta-mentor-samsung-bsp | Samsung Automotive Developmet Kit (evt1) | System (sys)         |
 
-    DISTRO=mentor-cdcbase . ./meta-mentor-cdcbase/setup-environment samsung-adk
-    bitbake core-image-cdcbase
+### Supported Distros
+| Disto          | Layer               |
+|:---------------|:--------------------|
+| mentor-cdcbase | meta-mentor-cdcbase |
 
-**Build Instructions for SDK (Hypervisor - Domain "SYS" on EVT1 - Hardware)**
+### Supported Images
+| Image              | Layer               |
+|:-------------------|:--------------------|
+| core-image-cdcbase | meta-mentor-cdcbase |
 
-    DISTRO=mentor-cdcbase . ./meta-mentor-cdcbase/setup-environment samsung-adk
-    bitbake core-image-cdcbase:do_populate_sdk
+How to build a SDK for a specific Target / Board
+------------------------------------------------
+The SDK can be build through the task 'do_populate_sdk' of the image recipe:
 
-**Build Instructions for Image + SDK (Hypervisor - Domain "SYS" on EVT1 - Hardware)**
+    bitbake <image>:do_populate_sdk
 
-    DISTRO=mentor-cdcbase . ./meta-mentor-cdcbase/setup-environment samsung-adk
-    bitbake core-image-cdcbase core-image-cdcbase:do_populate_sdk
+This can also combined into a single call, to build the image and the SDK in one run:
+
+    bitbake <image> <image>:do_populate_sdk
