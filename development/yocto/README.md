@@ -13,8 +13,8 @@ This folder contains the manifest for the yocto development of CDCBase.
 
 Please see the README.md in the parent folder.
 
-How to build a Image for a Machine
-----------------------------------
+How to build a Image for a specific Machine
+-------------------------------------------
     DISTRO=<distro> . ./meta-mentor-cdcbase/setup-environment [-b build-dir] <Machine>
     bitbake <image>
 
@@ -33,8 +33,8 @@ How to build a Image for a Machine
 |:-------------------|:--------------------|
 | core-image-cdcbase | meta-mentor-cdcbase |
 
-How to build a SDK for a specific Target / Board
-------------------------------------------------
+How to build a SDK for a specific Machine
+-----------------------------------------
 The SDK can be build through the task 'do_populate_sdk' of the image recipe:
 
     bitbake <image>:do_populate_sdk
