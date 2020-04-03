@@ -16,12 +16,18 @@ Please see the README.md in the parent folder.
 
 **Build Instructions**
 
-     unset CROSS_COMPILE
-    ./build.sh <Target> eng
+     export WORKING_DIR=$pwd/android
 
-With <Target>:
+     sudo apt-get install maven
+     sudo apt-get install openjdk-8-jdk openjdk-8-jre
 
-- sadkHR80 &rarr; Android Baremetal evt0
-- sadkHR80_evt1 &rarr; Android Baremetal evt1
-- rbvmsiSadkHR80 &rarr; IVI VM evt0 (android)
-- rbvmsiSadkHR80_evt1 &rarr; IVI VM evt1 (android)
+     cd $WORKING_DIR/external/capicxx-core-tools/org.genivi.commonapi.core.releng
+     mvn -Dtarget.id=org.genivi.commonapi.core.target clean verify
+
+     cd $WORKING_DIR/capicxx-someip-tools/org.genivi.commonapi.someip.releng
+     mvn -Dtarget.id=org.genivi.commonapi.someip.target clean verify -DCOREPATH=$WORKING_DIR/external/capicxx-core-tools
+
+     cd $WORKING_DIR
+     . build/envsetup.sh
+     lunch aosp_car_x86_64-userdebug
+     make -j<NUMBER_OF_JOBS>
