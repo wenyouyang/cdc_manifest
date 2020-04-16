@@ -12,11 +12,13 @@
 
     <!-- Yocto Open-source software -->
         <!-- add Yocto 3.0/Zeus layers -->
-        <project name="poky"                    path="yocto/poky"                remote="tposs_yocto" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus" groups="yocto"/>
-        <project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="tposs_yocto" revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus" groups="yocto"/>
-        <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus" groups="yocto"/>
-        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="9cab6bc46cf44d13f8fea3b827e298a4f6e16b17" upstream="zeus" groups="yocto"/>
-        <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b" upstream="zeus" groups="yocto"/>
+        <project name="poky"                    path="yocto/poky"                remote="tposs_yocto" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus"         groups="yocto"/>
+        <project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="tposs_yocto" revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus"         groups="yocto"/>
+        <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus"         groups="yocto"/>
+        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e" upstream="zeus"         groups="yocto"/>
+        <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="2f3c13ba3b41dfe07d17a1ca65902a2d794b26dc" upstream="zeus"         groups="yocto"/>
+        <project name="meta-java.git"           path="yocto/meta-java"           remote="tposs_yocto" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" upstream="zeus"         groups="yocto"/>
+        <project name="meta-ivi.git"            path="yocto/meta-ivi"            remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior" groups="yocto"/>
 
     <!-- cdcbase - project layers -->
         <!-- add generic meta-mentor-cdcbase layer -->
@@ -31,4 +33,7 @@
 
         <!-- add Mentor adaptations for Samsung BSP -->
         <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+
+        <!-- add Mentor adaptations for meta-ivi -->
+        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 </manifest>
