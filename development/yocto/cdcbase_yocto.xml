@@ -24,6 +24,9 @@
         <!-- add generic meta-mentor-cdcbase layer -->
         <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 
+        <!-- add Mentor adaptations for meta-ivi -->
+        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+
     <!-- Yocto BSP Layers for Samsung -->
 
         <!-- add Samsung Automotive Development Kit BSP (v2.4.0) layers -->
@@ -33,7 +36,4 @@
 
         <!-- add Mentor adaptations for Samsung BSP -->
         <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
-
-        <!-- add Mentor adaptations for meta-ivi -->
-        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 </manifest>
