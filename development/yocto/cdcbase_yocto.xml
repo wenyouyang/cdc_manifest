@@ -24,6 +24,9 @@
         <!-- add generic meta-mentor-cdcbase layer -->
         <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 
+        <!-- add generic meta-mentor-cdcbase-testing layer -->
+        <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+
         <!-- add Mentor adaptations for meta-ivi -->
         <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
 

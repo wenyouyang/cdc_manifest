@@ -15,7 +15,7 @@ Please see the README.md in the parent folder.
 
 How to build a Image for a specific Machine
 -------------------------------------------
-    DISTRO=<distro> . ./meta-mentor-cdcbase/setup-environment [-b build-dir] <Machine>
+    DISTRO=<distro> . ./meta-mentor-cdcbase/setup-environment [-l Optional Layers] [-b build-dir] <Machine>
     bitbake <image>
 
 ### Supported Machines
@@ -32,6 +32,12 @@ How to build a Image for a specific Machine
 | Image              | Layer               |
 |:-------------------|:--------------------|
 | core-image-cdcbase | meta-mentor-cdcbase |
+
+### Optional Layers
+| Layer                  | Description                                 |
+|:-----------------------|:--------------------------------------------|
+| mentor-cdcbase-testing | Recipes to build tests and the test-tarball |
+
 
 How to build a SDK for a specific Machine
 -----------------------------------------
