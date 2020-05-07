@@ -722,4 +722,7 @@
   <project path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
   <project path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
   <project path="android/external/vsomeip/android/boost/boost" name="boost" remote="boost_org" sync-s="true"/>
+  <project clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+
 </manifest>
