@@ -715,14 +715,14 @@
   <project groups="android,pdk" name="toolchain_pgo-profiles" path="android/toolchain/pgo-profiles" revision="57f8a20c1c0aae0126d79391756e0653fc222072" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="f21d8116df05e89e8f8f4c272a58137706ca3fe7" upstream="exynosauto9_dev_200114"/>
 
-  <project path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
-  <project path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
-  <project path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
-  <project path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
-  <project path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
-  <project path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
-  <project path="android/external/vsomeip/android/boost/boost" name="boost" remote="boost_org" sync-s="true"/>
-  <project clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
-  <project clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="boost_org" sync-s="true"/>
+  <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
 
 </manifest>
