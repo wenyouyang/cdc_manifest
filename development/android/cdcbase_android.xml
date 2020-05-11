@@ -4,8 +4,7 @@
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="samsung" revision="exynosauto9_dev_q_200114"/>
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="v9" revision="exynosauto9_dev_200114"/>
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase/" name="cdcbase_android"/>
-  
-  <remote fetch="https://github.com/boostorg" name="boost_org" revision="refs/tags/boost-1.72.0"/>
+  <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_android" alias="origin"/>
 
   <default remote="aosp" revision="refs/tags/android-10.0.0_r20" sync-j="8"/>
   
@@ -721,7 +720,7 @@
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="boost_org" sync-s="true"/>
+  <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="tposs_android" sync-s="true" revision="refs/tags/boost-1.72.0"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
 
