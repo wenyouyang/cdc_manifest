@@ -8,7 +8,7 @@
 
   <default remote="aosp" revision="refs/tags/android-10.0.0_r20" sync-j="8"/>
   
-  <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="28d8d71beb54e9fef08512741a4a0a8f84204237" upstream="cdcbase_exynosauto9_dev_200114"/>
+  <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="de522ccbd78d72d73ad8c2e4c64cd6338bbae364" upstream="cdcbase_exynosauto9_dev_200114"/>
   <project groups="android,pdk-cw-fs,pdk" name="device_common" path="android/device/common" revision="0765164ad7e409c27eb5066da44351b8cd1515db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_arm64" path="android/device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_armv7-a-neon" path="android/device/generic/armv7-a-neon" revision="4f543eb2e85a4b140d829ba5e186c895923f67fc" upstream="refs/tags/android-10.0.0_r20"/>
@@ -31,7 +31,7 @@
   <project clone-depth="1" groups="android,device,pdk" name="device_google_cuttlefish_kernel" path="android/device/google/cuttlefish_kernel" revision="4660e9e776b1c0d1cd096e8952af87ddb3be1e81" upstream="refs/tags/android-10.0.0_r20"/>
   <project clone-depth="1" groups="android,device,pdk" name="device_google_cuttlefish_vmm" path="android/device/google/cuttlefish_vmm" revision="07557e66383d8f273aa62e5db86a062858c2916a" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_sample" path="android/device/sample" revision="d64a03ec745d8e4085ae65a868f1e8d66b2d9c4c" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200114"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="dccad4efbcfe3e95686fe3c3e7dc2901412ef12a" upstream="cdc_base/exynosauto9_dev_q_200114"/>
   <project groups="android" name="Automotive_AHH3_v9_device_samsung_sepolicy" path="android/device/samsung/sepolicy" remote="samsung" revision="f65ed76feb028d2e96a1e80b5f5a2106f4599fe4" upstream="exynosauto9_dev_q_200114"/>
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
@@ -454,7 +454,6 @@
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_frameworks_opt_vcard" path="android/frameworks/opt/vcard" revision="5e88fd3aaadf7d2a54d1fbb7e03004775801750f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_frameworks_rs" path="android/frameworks/rs" revision="9822b047aa4423932fa8dd9ace11cdf16d309d3b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_frameworks_wilhelm" path="android/frameworks/wilhelm" revision="1ddc48b76a494bb1a346db3ac21ee9a10f4fe24f" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_hardware_broadcom_libbt" path="android/hardware/broadcom/libbt" revision="23f3a6e8adb289dfa609903126697ca6c4990120" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,broadcom_wlan" name="platform_hardware_broadcom_wlan" path="android/hardware/broadcom/wlan" revision="71f18dd0868c4871f01d0bb17f9ba05129d1163b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_google_apf" path="android/hardware/google/apf" revision="7c5d43915046b2d1af8930ae772c291ea28baac3" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_google_av" path="android/hardware/google/av" revision="603cdfa32c0e65f4c815fef775555db6509a124e" upstream="refs/tags/android-10.0.0_r20"/>
@@ -723,5 +722,9 @@
   <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="tposs_android" sync-s="true" revision="refs/tags/boost-1.72.0"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+
+  <project groups="android,pdk" name="platform_hardware_cypress_libbt" path="android/hardware/cypress/libbt" remote="cdcbase_android" revision="e86d8d3c9890b9d83b6f2c9a30f7d548fa9e2346" upstream="cdc_base/exynosauto9_dev_200114"/>
+  <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
+  <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
 </manifest>
