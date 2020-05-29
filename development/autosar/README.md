@@ -1,5 +1,5 @@
 CDCBase Autosar - Manifest for development
-========================================
+==========================================
 
 This folder contains the manifest for the yocto development of CDCBase.
 

@@ -1,7 +1,7 @@
-CDCBase Android - Manifest for development
-==========================================
+CDCBase Android - Manifest for development of release-Branch 0.x
+================================================================
 
-This folder contains the manifest for the yocto development of CDCBase.
+This folder contains the manifest for the yocto development of CDCBase release-Branch 0.x.
 
 
 **Manifest**
