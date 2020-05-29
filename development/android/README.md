@@ -1,5 +1,5 @@
 CDCBase Android - Manifest for development
-========================================
+==========================================
 
 This folder contains the manifest for the yocto development of CDCBase.
 
@@ -21,7 +21,5 @@ Please see the README.md in the parent folder.
 
 With <Target>:
 
-- sadkHR80 &rarr; Android Baremetal evt0
 - sadkHR80_evt1 &rarr; Android Baremetal evt1
-- rbvmsiSadkHR80 &rarr; IVI VM evt0 (android)
 - rbvmsiSadkHR80_evt1 &rarr; IVI VM evt1 (android)
