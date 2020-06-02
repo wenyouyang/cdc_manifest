@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="0.2/yocto/cdcbase_yocto.xml"/>
+    <include name="0.2/android/cdcbase_android.xml"/>
+    <include name="0.2/autosar/cdcbase_autosar.xml"/>
+</manifest>
