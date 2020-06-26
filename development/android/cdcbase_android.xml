@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="aosp"/>
-  <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="samsung" revision="exynosauto9_dev_q_200114"/>
-  <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="v9" revision="exynosauto9_dev_200114"/>
+  <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="samsung" revision="exynosauto9_dev_q_200602"/>
+  <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9/" name="v9" revision="exynosauto9_dev_200602"/>
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase/" name="cdcbase_android"/>
   <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_android" alias="origin"/>
 
   <default remote="aosp" revision="refs/tags/android-10.0.0_r20" sync-j="8"/>
-  
-  <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="de522ccbd78d72d73ad8c2e4c64cd6338bbae364" upstream="cdcbase_exynosauto9_dev_200114"/>
+
+  <!-- aosp repositories unmodified -->
+
   <project groups="android,pdk-cw-fs,pdk" name="device_common" path="android/device/common" revision="0765164ad7e409c27eb5066da44351b8cd1515db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_arm64" path="android/device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_armv7-a-neon" path="android/device/generic/armv7-a-neon" revision="4f543eb2e85a4b140d829ba5e186c895923f67fc" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_common" path="android/device/generic/common" revision="d440fc5f099d8ad8f32e5eb271e9124c992dad7f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish" path="android/device/generic/goldfish" revision="b2428bd84a62e8a5408a1e2976133e64e2928e62" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish-opengl" path="android/device/generic/goldfish-opengl" revision="2f3aec5f6a3fcefa98a6d358e8ddb87d317227a1" upstream="refs/tags/android-10.0.0_r20"/>
@@ -31,23 +31,12 @@
   <project clone-depth="1" groups="android,device,pdk" name="device_google_cuttlefish_kernel" path="android/device/google/cuttlefish_kernel" revision="4660e9e776b1c0d1cd096e8952af87ddb3be1e81" upstream="refs/tags/android-10.0.0_r20"/>
   <project clone-depth="1" groups="android,device,pdk" name="device_google_cuttlefish_vmm" path="android/device/google/cuttlefish_vmm" revision="07557e66383d8f273aa62e5db86a062858c2916a" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_sample" path="android/device/sample" revision="d64a03ec745d8e4085ae65a868f1e8d66b2d9c4c" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="51b9465bafae3883c42cf2feb506d3da4e264bb0" upstream="cdc_base/exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sepolicy" path="android/device/samsung/sepolicy" remote="samsung" revision="f65ed76feb028d2e96a1e80b5f5a2106f4599fe4" upstream="exynosauto9_dev_q_200114"/>
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_tests" path="android/kernel/tests" revision="5a30afe65eda92d244538dffec627d850e3699d7" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_art" path="android/art" revision="dc8b152a38ecc359e56529a074fe6f4331a8290d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bionic" path="android/bionic" revision="c05ce3ef5b225bcdfec2c570491d5353ec3fb8d4" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bootable_recovery" path="android/bootable/recovery" revision="79fa6bdf6b034548042eb010e6b737f48423b889" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="cdc_base/10.0.0_r20">
-    <copyfile dest="android/Makefile" src="core/root.mk"/>
-    <linkfile dest="android/build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="android/build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="android/build/core" src="core"/>
-    <linkfile dest="android/build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="android/build/target" src="target"/>
-    <linkfile dest="android/build/tools" src="tools"/>
-  </project>
   <project groups="android,pdk,tradefed" name="platform_build_blueprint" path="android/build/blueprint" revision="ef28eb63cc6c45781413b36c9a016198c620ce95" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,tradefed" name="platform_build_kati" path="android/build/kati" revision="7295712444f9e66fd0f52a298c1c39ccb0194ad4" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,tradefed" name="platform_build_soong" path="android/build/soong" revision="bc0c62607fd0d351146fcb71eae26d8dcbddd4fc" upstream="refs/tags/android-10.0.0_r20">
@@ -117,7 +106,6 @@
   <project groups="android,pdk" name="platform_external_dnsmasq" path="android/external/dnsmasq" revision="bfce4be5569c60687509a40c4f2304f2962182cb" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_doclava" path="android/external/doclava" revision="60c1a9f10eab6a82d53ef4db65525b5bfe12de62" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_dokka" path="android/external/dokka" revision="68f88bd53a3ca988de051469b6b5bc6f383d83a3" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,drm_hwcomposer,pdk-fs,q-fs-release" name="Automotive_AHH3_v9_platform_external_drm_hwcomposer" path="android/external/drm_hwcomposer" remote="samsung" revision="029d193ff744a1a73dac90aee0cb106d7bed0fcf" upstream="exynosauto9_dev_q_200114"/>
   <project groups="android,pdk" name="platform_external_droiddriver" path="android/external/droiddriver" revision="b0838843e019a232f9a439f895a658f58a369bd0" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_drrickorang" path="android/external/drrickorang" revision="8f0f838b123a0e6cd05b1db06f20d1e50d8389c8" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_dtc" path="android/external/dtc" revision="c7db36e4961918d5f0715984f6d28484e635ece3" upstream="refs/tags/android-10.0.0_r20"/>
@@ -210,7 +198,6 @@
   <project groups="android,pdk" name="platform_external_libcxxabi" path="android/external/libcxxabi" revision="a13dc9a5c69d05d8f285b0ab52e7b1ebadf4dc50" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_libdaemon" path="android/external/libdaemon" revision="433dd14cb58a66737e158ad1331c02162a80f43f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_libdivsufsort" path="android/external/libdivsufsort" revision="abb3a16c4986c5f7dda62580c4f53c1930d4d1b9" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_external_libdrm" path="android/external/libdrm" revision="2493ca265742b83a11531856451849ccf8c27f9f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_libese" path="android/external/libese" revision="6b796cbcd37992280254d8aadc0134ac2e2a12f8" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_libevent" path="android/external/libevent" revision="7b67f806735671bbf49cc4cd74c59c7c105ce8e2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_libexif" path="android/external/libexif" revision="1a6756b78ad1c7fca57cb8521081fc01181e8f83" upstream="refs/tags/android-10.0.0_r20"/>
@@ -433,7 +420,6 @@
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_frameworks_minikin" path="android/frameworks/minikin" revision="2c0520ced1681e4a48a123150514690a5ca03b66" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_frameworks_ml" path="android/frameworks/ml" revision="fb644190c6bcc14039433e2238989771fd43dfe0" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_frameworks_multidex" path="android/frameworks/multidex" revision="745fa74857d2833e4d2dc3b0d6ab6e6cb6ff25f2" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_frameworks_native" path="android/frameworks/native" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk-fs" name="platform_frameworks_opt_bitmap" path="android/frameworks/opt/bitmap" revision="e9850af1278e499e427d08dbf40244f3622bd6db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_frameworks_opt_calendar" path="android/frameworks/opt/calendar" revision="1aea8315ebe9cca6e9462ab02e9f4caf20c8cd58" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-fs" name="platform_frameworks_opt_car_services" path="android/frameworks/opt/car/services" revision="f40e9bf7fb51fa7f44263b28554357cb6905b568" upstream="refs/tags/android-10.0.0_r20"/>
@@ -459,18 +445,10 @@
   <project groups="android,pdk" name="platform_hardware_google_av" path="android/hardware/google/av" revision="603cdfa32c0e65f4c815fef775555db6509a124e" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,easel" name="platform_hardware_google_easel" path="android/hardware/google/easel" revision="48b47d1409524b2cf5678ace7dc1f2f4574e1e54" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_google_interfaces" path="android/hardware/google/interfaces" revision="530e20d5fe121ef93de98216c9e2b24f8750fdee" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_hardware_interfaces" path="android/hardware/interfaces" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,invensense,pdk" name="platform_hardware_invensense" path="android/hardware/invensense" revision="a51c32c7d16d32462fcd2d3fc61474bb0ec56864" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_libhardware" path="android/hardware/libhardware" revision="f4cb73d1b7345acd4fd2b11183aef62827b07943" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_libhardware_legacy" path="android/hardware/libhardware_legacy" revision="aa2ea20d8f26ff1f2c809432c0a48ceac8a67718" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_ril" path="android/hardware/ril" revision="d4bb7004d9b3dc91769a2c00ba95b8b863d3e79a" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_boot_control" path="android/hardware/samsung_slsi/boot_control" remote="samsung" revision="f3a82eb98cb66921314976405e7bb7f6c6db7602" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="c16baa6b9cfd1da5499e1260426d2f9c03c93208" upstream="cdc_base/exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos5" path="android/hardware/samsung_slsi/exynos5" remote="samsung" revision="38c8f49bf447db8bf9064ce819391e3d2db83f63" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynosauto9" path="android/hardware/samsung_slsi/exynosauto9" remote="samsung" revision="6997cbfadda8ee0034e3eb793876d980ed5564f9" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_base" path="android/hardware/samsung_slsi/graphics/base" remote="samsung" revision="b0c7d5af3cb7f06b138bb06311edc8651c4ca9a8" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200217"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_openmax" path="android/hardware/samsung_slsi/openmax" remote="samsung" revision="2f86cbf38cda603ceab8c312682d3d3c220c9f3f" upstream="exynosauto9_dev_q_200114"/>
   <project groups="android,pdk" name="platform_libcore" path="android/libcore" revision="d47dfc3f61c7a1fe12c3de8046a0cafc19f0672f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_libnativehelper" path="android/libnativehelper" revision="bcc2b6fda49e42add4715882231215b2b3ada9d0" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_apps_BasicSmsReceiver" path="android/packages/apps/BasicSmsReceiver" revision="fb4e66890e5d3aae37a584285e26856529762c22" upstream="refs/tags/android-10.0.0_r20"/>
@@ -569,7 +547,6 @@
   <project groups="android,pdk-fs" name="platform_packages_screensavers_PhotoTable" path="android/packages/screensavers/PhotoTable" revision="88a888cedda728bb6c9e41b1cdd0107fa40a8043" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_services_AlternativeNetworkAccess" path="android/packages/services/AlternativeNetworkAccess" revision="15113ac72a3c3fc805cdcb8971f88c27d475fa6d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_services_BuiltInPrintService" path="android/packages/services/BuiltInPrintService" revision="5115d0325c02936d121087a7d83eacd2cc9d73fa" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200114"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_services_Mms" path="android/packages/services/Mms" revision="b467ab1995df9f09c343b627efc7c1dbca63d7ac" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_services_Telecomm" path="android/packages/services/Telecomm" revision="6d279f591e0b1737125e0cdfee30fe60388fc636" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="platform_packages_services_Telephony" path="android/packages/services/Telephony" revision="bffac26114dded579ad12ad5c0595822b92ea51e" upstream="refs/tags/android-10.0.0_r20"/>
@@ -634,7 +611,6 @@
   <project groups="android,pdk" name="platform_system_chre" path="android/system/chre" revision="bc62a08507b9f14f688f590ce778cb9728fe8006" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_connectivity_wificond" path="android/system/connectivity/wificond" revision="dba38877339a03afe388ff5af40d8efd22b74517" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_connectivity_wifilogd" path="android/system/connectivity/wifilogd" revision="4dcae5651bcb21789929ba7f080e92e207fe5628" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_core" path="android/system/core" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_extras" path="android/system/extras" revision="801d95ca3b71ecf297ce940624f0556d44bc63a2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_gatekeeper" path="android/system/gatekeeper" revision="7682f48dd3cd14e93df7462d9a5af21e6f977caa" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_gsid" path="android/system/gsid" revision="058e6a154fdb0048a7d59e840f154e3be29378e2" upstream="refs/tags/android-10.0.0_r20"/>
@@ -643,8 +619,6 @@
   <project groups="android,pdk" name="platform_system_iorap" path="android/system/iorap" revision="86e6abbe597eb7e72055db66aa3ecc924b8e86c5" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_keymaster" path="android/system/keymaster" revision="a8dca9ec4437a09360612f11d65aa4f53cb0098f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_libfmq" path="android/system/libfmq" revision="4afa3bd3caeb85029f575ddd52cc337a5cfc5916" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_libhidl" path="android/system/libhidl" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_libhwbinder" path="android/system/libhwbinder" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_libsysprop" path="android/system/libsysprop" revision="a73ea2c4e65d3e3e93e710a73cfec3c8d05a18bd" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_libufdt" path="android/system/libufdt" revision="715ca232a5b4b870968eceedc332eb84cf312963" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_libvintf" path="android/system/libvintf" revision="2f80e606e9a1919cda836ded51685e0af1f7b93a" upstream="refs/tags/android-10.0.0_r20"/>
@@ -654,12 +628,10 @@
   <project groups="android,pdk" name="platform_system_nfc" path="android/system/nfc" revision="a581069b8f449f5e5d7804ac70fa4d9d57a2b94e" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_nvram" path="android/system/nvram" revision="0f6a0aa324ba9f6197f4f9b4a26c3db4fcd2935f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_security" path="android/system/security" revision="f3082b0ac5cf8770efffac57dd7762233f29c92e" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_server_configurable_flags" path="android/system/server_configurable_flags" revision="1d7caad900cb9cc24202d8aea5387a363135b2e1" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_testing_gtest_extras" path="android/system/testing/gtest_extras" revision="7eae4114c5b03eb4b991167a2eacabf021f50441" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_timezone" path="android/system/timezone" revision="d2fe244e6f4c6163fe65f557e2ab302a9c2f76d7" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_tools_aidl" path="android/system/tools/aidl" revision="770c9e632c3097d8c66d94ca299ffc0365001080" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_tools_hidl" path="android/system/tools/hidl" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_tools_sysprop" path="android/system/tools/sysprop" revision="c386fbaa8c630ee2dbb2ddf0e5a22b29871af52b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_tools_xsdc" path="android/system/tools/xsdc" revision="b564858b10510e64b44e3afd4c8dffe66dc249fb" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_ucontainer" path="android/system/ucontainer" revision="b63e91330946f9c73e1c72032cfc31d1a8c9bc8f" upstream="refs/tags/android-10.0.0_r20"/>
@@ -702,31 +674,96 @@
   <project groups="android,pdk,tradefed" name="platform_tools_tradefederation" path="android/tools/tradefederation/core" revision="0dac086d8d54482328f90c77d98d95fce63e8334" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,tradefed" name="platform_tools_tradefederation_contrib" path="android/tools/tradefederation/contrib" revision="4a21591272855e11d10c3728aa87030e0fbbc13b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform_tools_trebuchet" path="android/tools/trebuchet" revision="5c74aa19df59af3292dadc6db03ffbf5235b3a9d" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_common" path="android/vendor/samsung_slsi/common" remote="samsung" revision="11ee220bc640febf237f94577ffe1b1c35e2e76f" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_firmware" path="android/vendor/samsung_slsi/exynosauto9/firmware" remote="samsung" revision="ded078bf46a16c88bc058c1623b5a9f5d5a07fcc" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_libs" path="android/vendor/samsung_slsi/exynosauto9/libs" remote="samsung" revision="061230a0a8a6bc3faecf198ae95338baef28a2ce" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_hardware" path="android/vendor/samsung_slsi/hardware" remote="samsung" revision="ccb9c17903393f673b9a8c94142b8dee08d54945" upstream="exynosauto9_dev_q_200114"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="samsung" revision="c193ae40400199b5a39efed3a128d478631f220f" upstream="exynosauto9_dev_q_200114">
-    <linkfile dest="android/build.sh" src="build.sh"/>
-  </project>
   <project groups="android" name="toolchain_benchmark" path="android/toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="toolchain_pgo-profiles" path="android/toolchain/pgo-profiles" revision="57f8a20c1c0aae0126d79391756e0653fc222072" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="f21d8116df05e89e8f8f4c272a58137706ca3fe7" upstream="exynosauto9_dev_200114"/>
 
+  <!-- End of AOSP Repositories -->
+
+
+  <!-- v9 -->
+
+  <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="578cee0bb6d7c7a25b00ed47d94defc4dce48a1b" upstream="exynosauto9_dev_200602"/>
+
+
+  <!-- Samsung repositories -->
+
+  <project groups="android,pdk" name="Automotive_AHH3_v9_platform_external_libdrm" path="android/external/libdrm" remote="samsung" revision="66a2e956c033cab7ffe94ba50883f83820146433" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sepolicy" path="android/device/samsung/sepolicy" remote="samsung" revision="eeb60cfb9f2322e9990101819039ef92119f104a" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android,drm_hwcomposer,pdk-fs,q-fs-release" name="Automotive_AHH3_v9_platform_external_drm_hwcomposer" path="android/external/drm_hwcomposer" remote="samsung" revision="a79f2ad7712f2c6232033b5ba715d3ca660dedf6" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_boot_control" path="android/hardware/samsung_slsi/boot_control" remote="samsung" revision="f3a82eb98cb66921314976405e7bb7f6c6db7602" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos5" path="android/hardware/samsung_slsi/exynos5" remote="samsung" revision="38c8f49bf447db8bf9064ce819391e3d2db83f63" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynosauto9" path="android/hardware/samsung_slsi/exynosauto9" remote="samsung" revision="6e7509c70617d2dc124f3d2b10b89c59b5c81d1d" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_base" path="android/hardware/samsung_slsi/graphics/base" remote="samsung" revision="0f04758cbb4f5e563ff596a1e1f170367d915382" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_openmax" path="android/hardware/samsung_slsi/openmax" remote="samsung" revision="f5fee0b0f918db0ad4b329896a855a5cd1ab1cfe" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_common" path="android/vendor/samsung_slsi/common" remote="samsung" revision="11ee220bc640febf237f94577ffe1b1c35e2e76f" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynos_eden" path="android/vendor/samsung_slsi/exynos/eden" remote="samsung" revision="488ad7660445f0f76ba461dc2f9d52e4e697eb8b" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_firmware" path="android/vendor/samsung_slsi/exynosauto9/firmware" remote="samsung" revision="6dd211e547c6f6011867cf5c52117407d9984270" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_liboemcrypto" path="android/vendor/samsung_slsi/exynosauto9/liboemcrypto" remote="samsung" revision="c77c847fdea23aef83c3ca546757cd288bd2fe72" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_libs" path="android/vendor/samsung_slsi/exynosauto9/libs" remote="samsung" revision="55249bbe046a3cf97890be044f8fef739bf6146d" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_hardware" path="android/vendor/samsung_slsi/hardware" remote="samsung" revision="cd3489862d6e8c75666ae2488bc9ed851783fe68" upstream="exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="samsung" revision="bed822844d85125f7c92ad80c77ace2acb8eb25c" upstream="exynosauto9_dev_q_200602">
+   <linkfile dest="android/build.sh" src="build.sh"/>
+  </project>
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
+
+
+
+  <!-- cdcbase repositories -->
+
+  <!-- build repository -->
+
+  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="cdc_base/10.0.0_r20">
+    <copyfile dest="android/Makefile" src="core/root.mk"/>
+    <linkfile dest="android/build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="android/build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="android/build/core" src="core"/>
+    <linkfile dest="android/build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="android/build/target" src="target"/>
+    <linkfile dest="android/build/tools" src="tools"/>
+  </project>
+
+   <!-- kernel repository -->
+   <!-- rebaseable repository -->
+
+   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="de522ccbd78d72d73ad8c2e4c64cd6338bbae364" upstream="cdcbase_exynosauto9_dev_200114"/>
+
+   <!-- android userland -->
+   <!-- rebasable repositories against new release -->
+
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="ed2ec028d865877ed8bc01e95a91af2fc458b418" upstream="cdc_base/exynosauto9_dev_q_200114"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="1590b6fd38d5ffc06e26e8808a1aa186a8d151b1" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200217"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200114"/>
+
+  
+  <!-- rebase not required repositories -->
+
+  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_frameworks_native" path="android/frameworks/native" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_hardware_interfaces" path="android/hardware/interfaces" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_core" path="android/system/core" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_libhidl" path="android/system/libhidl" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_libhwbinder" path="android/system/libhwbinder" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_tools_hidl" path="android/system/tools/hidl" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
   <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="tposs_android" sync-s="true" revision="refs/tags/boost-1.72.0"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
+  <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="e3b4ac5bde41d72a18f3a35cc5068b10c3630d70" upstream="master"/>
 
+  <!-- internal cypress repositories, no rebase required -->
   <project groups="android,pdk" name="platform_hardware_cypress_libbt" path="android/hardware/cypress/libbt" remote="cdcbase_android" revision="e86d8d3c9890b9d83b6f2c9a30f7d548fa9e2346" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
-  <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="e3b4ac5bde41d72a18f3a35cc5068b10c3630d70" upstream="master"/>
+
+  <!-- OSS repositories -->
+
+  <project groups="android" path="android/external/vsomeip/android/boost/boost" name="boost" remote="tposs_android" sync-s="true" revision="refs/tags/boost-1.72.0"/>
 
 </manifest>
