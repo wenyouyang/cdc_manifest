@@ -33,9 +33,9 @@
     <!-- Yocto BSP Layers for Samsung -->
 
         <!-- add Samsung Automotive Development Kit BSP (v2.4.0) layers -->
-        <project name="Automotive_AHH3_v9_meta-samsung-bsp.git"     path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="fb5222836bdd6680468523abd0e0cee41d23aa4c" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
-        <project name="Automotive_AHH3_v9_meta-samsung-hcp3-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="92a2cd0975120e4ae2988e1ce00f352652aab7c5" upstream="exynosauto9_dev_thud_200114" groups="yocto"/>
-        <project name="Automotive_AHH3_v9_hyp_meta-vl.git"          path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="597af40675d753416b10c8f58d8e1c6a06df2bab" upstream="exynosauto9_dev_200114"      groups="yocto"/>
+        <project name="Automotive_AHH3_v9_meta-samsung-bsp.git" path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="2bbe3e9b7668605156f4b2b151d83c9b80836a07" upstream="exynosauto9_dev_thud_200602" groups="yocto"/>
+        <project name="Automotive_AHH3_v9_meta-samsung-la.git"  path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="f9e9055f3b0863e851b153ca0883c3e1f42b44c5" upstream="exynosauto9_dev_thud_200602" groups="yocto"/>
+        <project name="Automotive_AHH3_v9_hyp_meta-vl.git"      path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"      groups="yocto"/>
 
         <!-- add Mentor adaptations for Samsung BSP -->
         <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
