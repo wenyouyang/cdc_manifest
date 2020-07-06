@@ -699,13 +699,10 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_liboemcrypto" path="android/vendor/samsung_slsi/exynosauto9/liboemcrypto" remote="samsung" revision="c77c847fdea23aef83c3ca546757cd288bd2fe72" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynosauto9_libs" path="android/vendor/samsung_slsi/exynosauto9/libs" remote="samsung" revision="55249bbe046a3cf97890be044f8fef739bf6146d" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_hardware" path="android/vendor/samsung_slsi/hardware" remote="samsung" revision="cd3489862d6e8c75666ae2488bc9ed851783fe68" upstream="exynosauto9_dev_q_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="samsung" revision="bed822844d85125f7c92ad80c77ace2acb8eb25c" upstream="exynosauto9_dev_q_200602">
-   <linkfile dest="android/build.sh" src="build.sh"/>
-  </project>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="Automotive_AHH3_v9_platform_system_hardware_interfaces" path="android/system/hardware/interfaces" remote="samsung" revision="6b6a028a46c8f2e95900ca2f63c8e157dd972b7b" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="Automotive_AHH3_v9_platform_frameworks_base" path="android/frameworks/base" remote="samsung" revision="ecd8fdbe6cc18fcf4cb057b1f495ed5285d62697" upstream="exynosauto9_dev_q_200602"/>
-
+  <project groups="android" name="Automotive_AHH3_v9_bl2-boot" path="android/tools/bl2-boot" remote="samsung" revision="7221e23d0fe6a26549a6781e82001f04cae316a5" upstream="exynosauto9_dev_200602"/>
 
   <!-- cdcbase repositories -->
 
@@ -719,6 +716,10 @@
     <linkfile dest="android/build/envsetup.sh" src="envsetup.sh"/>
     <linkfile dest="android/build/target" src="target"/>
     <linkfile dest="android/build/tools" src="tools"/>
+   </project>
+
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="cdcbase_android" revision="1b66260b3b1b2e222bb7c856240b0445dd20e91e" upstream="cdc_base/exynosauto9_dev_q_200602">
+   <linkfile dest="android/build.sh" src="build.sh"/>
   </project>
 
    <!-- kernel repository -->
@@ -734,7 +735,6 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200602"/>
 
-  
   <!-- rebase not required repositories -->
 
   <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="cdc_base/10.0.0_r20"/>
