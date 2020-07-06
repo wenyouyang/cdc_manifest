@@ -12,11 +12,11 @@
 
     <!-- Yocto Open-source software -->
         <!-- add Yocto 3.0/Zeus layers -->
-        <project name="poky"                    path="yocto/poky"                remote="tposs_yocto" revision="5e1f52edb7a9f790fb6cb5d96502f3690267c1b1" upstream="zeus"         groups="yocto"/>
-        <project name="meta-gplv2"              path="yocto/meta-gplv2"          remote="tposs_yocto" revision="0f4eecc000f66d114ad258fa31aed66afa292166" upstream="zeus"         groups="yocto"/>
-        <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="9e60d30669a2ad0598e9abf0cd15ee06b523986b" upstream="zeus"         groups="yocto"/>
-        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e" upstream="zeus"         groups="yocto"/>
-        <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="1a8a7996a1130d35501c0e0e62a364dcb013ffe7" upstream="zeus"         groups="yocto"/>
+        <project name="poky.git"                path="yocto/poky"                remote="tposs_yocto" revision="eac84e73e8d94610173c3bb3b6c6d74b58e44f60" upstream="zeus"         groups="yocto"/>
+        <project name="meta-gplv2.git"          path="yocto/meta-gplv2"          remote="tposs_yocto" revision="0f4eecc000f66d114ad258fa31aed66afa292166" upstream="zeus"         groups="yocto"/>
+        <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b" upstream="zeus"         groups="yocto"/>
+        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="711e593d5984aad3bf35c51b7ac4482982bc16c7" upstream="zeus"         groups="yocto"/>
+        <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="514ce5f6b240600f06b9956737be1e33900bacac" upstream="zeus"         groups="yocto"/>
         <project name="meta-java.git"           path="yocto/meta-java"           remote="tposs_yocto" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" upstream="zeus"         groups="yocto"/>
         <project name="meta-ivi.git"            path="yocto/meta-ivi"            remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior" groups="yocto"/>
 
