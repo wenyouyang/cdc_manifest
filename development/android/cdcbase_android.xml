@@ -755,7 +755,7 @@
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="mgc/maintain/3.1"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="e3b4ac5bde41d72a18f3a35cc5068b10c3630d70" upstream="master"/>
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="mgc/maintain/0.1"/>
-  <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="cdcbase_development"/>
+  <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="cdc_base/development"/>
 
   <!-- internal cypress repositories, no rebase required -->
   <!-- TODO: clarify the branch naming for the repositories -->
