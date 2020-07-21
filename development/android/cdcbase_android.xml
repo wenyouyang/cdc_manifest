@@ -730,10 +730,10 @@
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
 
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="e4c737a26378b77a22250679768340c7219663cd" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="92beb70f5ca0cea38a8b9d2c007a7c8bd837b366" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="1590b6fd38d5ffc06e26e8808a1aa186a8d151b1" upstream="cdc_base/exynosauto9_dev_q_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="e2ad2c5fd02b9a13da84ef354a23186ddb6eb666" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="5855884867fd814a0e588c4a30219a30e12153a9" upstream="cdc_base/exynosauto9_dev_q_200602"/>
 
   <!-- rebase not required repositories -->
 
