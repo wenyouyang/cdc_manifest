@@ -757,12 +757,16 @@
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="cdc_base/development"/>
 
-  <!-- internal cypress repositories, no rebase required -->
+  <!-- internal development repositories, no rebase required -->
   <!-- TODO: clarify the branch naming for the repositories -->
   <project groups="android,pdk" name="platform_hardware_cypress_libbt" path="android/hardware/cypress/libbt" remote="cdcbase_android" revision="e86d8d3c9890b9d83b6f2c9a30f7d548fa9e2346" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
+  <project groups="android" name="cdcbase_mentor_hmi" path="packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="ba027000e761bba5389db18e59ec7606031376b0" upstream="master"/>
+  <project groups="android" name="cdcbase_usb-serial-for-android" path="external/usb-serial-for-android" remote="cdcbase_android" revision="13df1282261d797ac3b2293e81c8c89bf08432e4" upstream="master"/>
+  <project groups="android" name="cdcbase_material-design-x-release" path="external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
+  <project groups="android" name="cdcbase_sw_updater_app_android" path="packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="e2b40e09f91f9bd0028602a7cef91a5dc822eb69" upstream="master"/>
 
   <!-- OSS repositories -->
 
