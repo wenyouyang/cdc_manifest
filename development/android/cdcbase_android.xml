@@ -763,10 +763,10 @@
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
-  <project groups="android" name="cdcbase_mentor_hmi" path="packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="09c22dd7b9873160ebb9dc3b53238f02830286a0" upstream="master"/>
-  <project groups="android" name="cdcbase_usb-serial-for-android" path="external/usb-serial-for-android" remote="cdcbase_android" revision="13df1282261d797ac3b2293e81c8c89bf08432e4" upstream="master"/>
-  <project groups="android" name="cdcbase_material-design-x-release" path="external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
-  <project groups="android" name="cdcbase_sw_updater_app_android" path="packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="86fb63599da4e098208e2b0f402cd899797afcab" upstream="master"/>
+  <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="09c22dd7b9873160ebb9dc3b53238f02830286a0" upstream="master"/>
+  <project groups="android" name="cdcbase_usb-serial-for-android" path="android/external/usb-serial-for-android" remote="cdcbase_android" revision="90bc7d4cd63a70049065a312288fbf3d913ccccc" upstream="cdcbase_2.2.3_master"/>
+  <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
+  <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="86fb63599da4e098208e2b0f402cd899797afcab" upstream="master"/>
 
   <!-- OSS repositories -->
 
