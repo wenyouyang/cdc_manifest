@@ -5,7 +5,7 @@
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_yocto" alias="origin" revision="zeus"/>
 
         <!-- configure remote for the cdcbase - project -->
-        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_yocto"  alias="origin" revision="development" />
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_yocto"  alias="origin" revision="release/1.x" />
 
         <!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
@@ -23,13 +23,13 @@
 
     <!-- cdcbase - project layers -->
         <!-- add generic meta-mentor-cdcbase layer -->
-        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="release/1.x" groups="yocto"/>
 
         <!-- add generic meta-mentor-cdcbase-testing layer -->
-        <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+        <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="release/1.x" groups="yocto"/>
 
         <!-- add Mentor adaptations for meta-ivi -->
-        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="release/1.x" groups="yocto"/>
 
     <!-- Yocto BSP Layers for Samsung -->
 
@@ -39,5 +39,5 @@
         <project name="Automotive_AHH3_v9_hyp_meta-vl.git"      path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"      groups="yocto"/>
 
         <!-- add Mentor adaptations for Samsung BSP -->
-        <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="development" groups="yocto"/>
+        <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="release/1.x" groups="yocto"/>
 </manifest>
