@@ -1,7 +1,7 @@
-CDCBase Android - Manifest for development of release-Branch 0.x
+CDCBase Android - Manifest for development of release-Branch 1.x
 ================================================================
 
-This folder contains the manifest for the android development of CDCBase release-Branch 0.x.
+This folder contains the manifest for the android development of CDCBase release-Branch 1.x.
 
 
 **Manifest**
