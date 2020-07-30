@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- configure remote for the cdcbase - project -->
+    <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_autosar"  alias="origin" revision="release/1.x"/>
+
+    <!-- add Mentor adaptations for Samsung BSP-->
+    <project name="cdc_base_autosar.git" path="autosar" remote="cdcbase_autosar" revision="db402f98c71be5f45b63533bf784ce1819453325" upstream="release/1.x" groups="autosar"/>
+</manifest>
