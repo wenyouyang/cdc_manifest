@@ -400,7 +400,6 @@
   <project groups="android,pdk" name="platform_external_wayland-protocols" path="android/external/wayland-protocols" revision="a0faa9d647120f6251725a0222376d70570d3fdf" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,qcom_msm8x26" name="platform_external_webp" path="android/external/webp" revision="0d4066cc8c442d65cfb7c70f9ab484545f813949" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_webrtc" path="android/external/webrtc" revision="cf0ffc92d1efdaaacf7e2c8045af754463e34813" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_external_wpa_supplicant_8" path="android/external/wpa_supplicant_8" revision="68355f579a5ddfea0bffef3006f5eb0dd50d54c7" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_wycheproof" path="android/external/wycheproof" revision="9fe3e8708733ac26153048a03b1b0f83a206ea51" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_xmp_toolkit" path="android/external/xmp_toolkit" revision="44d7e4d00ef6da63a75bf3a4f9296872cc4d2ac1" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_external_xz-embedded" path="android/external/xz-embedded" revision="51923a98b0af813e3db6a027d64471ee8710a4f2" upstream="refs/tags/android-10.0.0_r20"/>
@@ -701,7 +700,6 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_hardware" path="android/vendor/samsung_slsi/hardware" remote="samsung" revision="cd3489862d6e8c75666ae2488bc9ed851783fe68" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="Automotive_AHH3_v9_platform_system_hardware_interfaces" path="android/system/hardware/interfaces" remote="samsung" revision="6b6a028a46c8f2e95900ca2f63c8e157dd972b7b" upstream="exynosauto9_dev_q_200602"/>
-  <project groups="android,pdk-cw-fs,pdk-fs" name="Automotive_AHH3_v9_platform_frameworks_base" path="android/frameworks/base" remote="samsung" revision="ecd8fdbe6cc18fcf4cb057b1f495ed5285d62697" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_bl2-boot" path="android/tools/bl2-boot" remote="samsung" revision="7221e23d0fe6a26549a6781e82001f04cae316a5" upstream="exynosauto9_dev_200602"/>
 
   <!-- cdcbase repositories -->
@@ -730,10 +728,12 @@
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
 
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="88ca642b1319ef42e43ef560dae0620b3757bc66" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="6279b5bbbfea26c51ff60b0157d30c18081a14f0" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="1590b6fd38d5ffc06e26e8808a1aa186a8d151b1" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="e2ad2c5fd02b9a13da84ef354a23186ddb6eb666" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="a0b8df0f1645a926dcb7a55a9424c9b9def68fdd" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android,pdk" name="platform_external_wpa_supplicant_8" path="android/external/wpa_supplicant_8" remote="cdcbase_android" revision="287688d77ca663908766281080148bbbdffeb99c" upstream="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk-cw-fs,pdk-fs" name="Automotive_AHH3_v9_platform_frameworks_base" path="android/frameworks/base" remote="cdcbase_android" revision="0c0d41712ecc299261c4221e8bf86017265f675f" upstream="cdc_base/exynosauto9_dev_q_200602"/>
 
   <!-- rebase not required repositories -->
 
@@ -763,10 +763,10 @@
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
-  <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="09c22dd7b9873160ebb9dc3b53238f02830286a0" upstream="master"/>
+  <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="7b1a5b509f97d0ea1c987041529c8306fbe626a5" upstream="master"/>
   <project groups="android" name="cdcbase_usb-serial-for-android" path="android/external/usb-serial-for-android" remote="cdcbase_android" revision="90bc7d4cd63a70049065a312288fbf3d913ccccc" upstream="cdcbase_2.2.3_master"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
-  <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="25db62f52c51424dc07fbdc524b80a3c0e1ff3d3" upstream="master"/>
+  <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="20dafa8e6399c01d5bab576d48a3a730bbb8192b" upstream="master"/>
 
   <!-- OSS repositories -->
 
