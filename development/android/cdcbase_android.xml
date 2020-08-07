@@ -766,7 +766,7 @@
   <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="0fd499a4ffc15edd124ccf436891257a1e842903" upstream="master"/>
   <project groups="android" name="cdcbase_usb-serial-for-android" path="android/external/usb-serial-for-android" remote="cdcbase_android" revision="90bc7d4cd63a70049065a312288fbf3d913ccccc" upstream="cdcbase_2.2.3_master"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
-  <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="20dafa8e6399c01d5bab576d48a3a730bbb8192b" upstream="master"/>
+  <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="a3d59818793efa40fa7a1569628c0c09ad1a27fa" upstream="master"/>
 
   <!-- OSS repositories -->
 
