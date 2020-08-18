@@ -749,7 +749,7 @@
   <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="856a0c96c07934c6468d307d4367c1df0cb5e2e4" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="6708b930374e3f3bffcd6598307d54697c03e099" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="a2043a649de1df0b0564b73c8fd33457f1604594" upstream="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="9aebf65898b139129287dc5a8b6b765e63508618" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="6960a280e73208a3d7fbc00c8cdf0a52b8a70f16" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="cbbb68430469df512c667633a8f61c4e9b436748" upstream="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="c28aa181958b1905e7702f0d4b0fbdb9e7edf72a" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="e3b4ac5bde41d72a18f3a35cc5068b10c3630d70" upstream="master"/>
