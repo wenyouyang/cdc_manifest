@@ -11,10 +11,10 @@
   <project groups="yocto" name="meta-gplv2.git" path="yocto/meta-gplv2" remote="tposs_yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"/>
   <project groups="yocto" name="meta-ivi.git" path="yocto/meta-ivi" remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior"/>
   <project groups="yocto" name="meta-java.git" path="yocto/meta-java" remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"/>
-  <project dest-branch="development" groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="426f9531b5a64169583d325e3786c991a8c9ee4b" upstream="development"/>
-  <project dest-branch="development" groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="d689e20e2067efb4bf66160f91e3927efabc8f7b" upstream="development"/>
-  <project dest-branch="development" groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="d9a7acd0d904835ae6a003d1252780ca2b568e82" upstream="development"/>
-  <project dest-branch="development" groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="b3f245e1d6095bddb34a98782793269e577b0019" upstream="development"/>
+  <project dest-branch="development" groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="8a2aaff8c6bb86cbcfe5e61d20bc8ed043e80089" upstream="development"/>
+  <project dest-branch="development" groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="4055c82b7c17f89a7b50314c99f898831d458ee1" upstream="development"/>
+  <project dest-branch="development" groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="206ed2bfd21d088268d485a318c33e3935959861" upstream="development"/>
+  <project dest-branch="development" groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="28301b8f7e95f0bae83df98822f1d4807e3367d1" upstream="development"/>
   <project groups="yocto" name="meta-openembedded.git" path="yocto/meta-oe" remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"/>
   <project groups="yocto" name="meta-python2.git" path="yocto/meta-python2" remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"/>
   <project groups="yocto" name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"/>
