@@ -643,7 +643,6 @@
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_dashboard" path="android/test/vti/dashboard" revision="a9bd47e4caa21d535fb89c0e6efe23fa08d25847" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_fuzz_test_serving" path="android/test/vti/fuzz_test_serving" revision="6319e3d94c65669050c49c6ca570096d41823b82" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_test_serving" path="android/test/vti/test_serving" revision="417ad51c260dc9d0bfc6b64e567fa67b112c1560" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" revision="d51309590fb2ebdcaaefde0ced4ff67e7a2dff0d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vts-testcase_fuzz" path="android/test/vts-testcase/fuzz" revision="3845288c52bf080b0c5a01005de15e11a0033254" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="platform_test_vts-testcase_hal" path="android/test/vts-testcase/hal" revision="55c563fcd751379525c3c467d189135173663219" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="platform_test_vts-testcase_hal-trace" path="android/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="refs/tags/android-10.0.0_r20"/>
@@ -756,7 +755,10 @@
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="e3b4ac5bde41d72a18f3a35cc5068b10c3630d70" upstream="master"/>
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="324872d7ae645cb389a85f3db7c7dbce9dfa2d9e" upstream="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
-  <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="0c06a7a087a7a5d51b9477866ca7d3e41f326028" upstream="cdcbase_v2.18.5"/>
+
+  <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="f94be567d74b9b824136dfc66f207404dac2c2c9" upstream="cdcbase_v2.18.5"/>
+  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="3acc34d311c4728cccb64b6cb5953bdc50869891" upstream="10.0.0_r20"/>
+  <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-tests-vts" path="android/test/vts/testcases/cdcbase_dlt-daemon-tests-vts" remote="cdcbase_android" revision="a8e0081c3e69d193a5b783448c97fdf7cd1690a5" upstream="cdcbase_v2.18.5"/>
 
   <!-- internal development repositories, no rebase required -->
   <!-- TODO: clarify the branch naming for the repositories -->
