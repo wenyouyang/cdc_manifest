@@ -756,7 +756,7 @@
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="70b87fd6268eaf5f7056178e1b054849321c8238" upstream="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
 
-  <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="559660033029d719c525352aefff04b423f85808" upstream="cdcbase_v2.18.5"/>
+  <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="ffe62221ef589b6e388d2ca50fe0eec0fd9b1820" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="506b4f74bcc970cbf461c0f6d6ec84b772b77fc6" upstream="10.0.0_r20"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-tests-vts" path="android/test/vts/testcases/cdcbase_dlt-daemon-tests-vts" remote="cdcbase_android" revision="a8e0081c3e69d193a5b783448c97fdf7cd1690a5" upstream="cdcbase_v2.18.5"/>
 
