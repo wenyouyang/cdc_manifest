@@ -771,7 +771,7 @@
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="e06ac17df66c9927996940304fe9f937ab15b6f8" upstream="master"/>
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="1eb671403abb37bc5b0f49dcf4a95ee2aeda541f" upstream="master"/>
-  <project groups="android" name="cdcbase_android_legacy_appdrawer" path="android/packages/apps/Car/LegacyAppDrawer" remote="cdcbase_android" revision="4556414b1594f87f1b48605f3ecc9a38e1ab1e71" upstream="master"/>
+  <project groups="android" name="cdcbase_android_legacy_appdrawer" path="android/packages/apps/Car/LegacyAppDrawer" remote="cdcbase_android" revision="be4b4399f556c96c3975b235e39cbfcc038d8d9c" upstream="master"/>
   <!-- OSS repositories -->
 
 </manifest>
