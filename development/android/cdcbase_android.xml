@@ -722,7 +722,7 @@
    <!-- kernel repository -->
    <!-- rebaseable repository -->
 
-   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="9c90f02cd66ac84e474420a8eb87627467e0b4ac" upstream="cdcbase_exynosauto9_dev_200602"/>
+   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="4486b1ddafeabcb59b6a78ffe3536b2cf4a1d5db" upstream="cdcbase_exynosauto9_dev_200602"/>
 
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
