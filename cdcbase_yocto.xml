@@ -12,9 +12,9 @@
   <project groups="yocto" name="meta-ivi.git" path="yocto/meta-ivi" remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior"/>
   <project groups="yocto" name="meta-java.git" path="yocto/meta-java" remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"/>
   <project groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="b081314c8a5eabece4272d08da4c37a6b69c4d88" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="b474b07694e6c359279cd16ea261f0fce0b450e9" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="e9157d8455b6e435368508bd2039cae0b4deadb5" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="1ce0ed15135567ab108b772443c4866a1e496acf" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="c32b87f1e46e835065d2bbdde3d01bc7f26da819" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="a968227a1a036422abeab475a2b57124f17eaf17" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="44ae5716ee653c829cb3c83fa3a2b07b26f8b32f" upstream="master"/>
   <project groups="yocto" name="meta-openembedded.git" path="yocto/meta-oe" remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"/>
   <project groups="yocto" name="meta-python2.git" path="yocto/meta-python2" remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"/>
   <project groups="yocto" name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"/>
