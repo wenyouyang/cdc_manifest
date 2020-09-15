@@ -715,7 +715,7 @@
     <linkfile dest="android/build/tools" src="tools"/>
    </project>
 
-  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="cdcbase_android" revision="1b66260b3b1b2e222bb7c856240b0445dd20e91e" upstream="cdc_base/exynosauto9_dev_q_200602">
+  <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_script" path="android/vendor/samsung_slsi/script" remote="cdcbase_android" revision="ecff4b840f5d152b73cf09736854c9615522a4e2" upstream="cdc_base/exynosauto9_dev_q_200602">
    <linkfile dest="android/build.sh" src="build.sh"/>
   </project>
 
