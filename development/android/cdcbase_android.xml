@@ -746,18 +746,18 @@
   <project groups="android,pdk" name="platform_system_tools_hidl" path="android/system/tools/hidl" remote="cdcbase_android" revision="9e89fa6f1fb9ed93ea231f83fe4e1edc86ba1033" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="ffedae51e107b73e9551ef42b1cb84f3b48d3251" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="b8046ed381eadbb05b2b7e3f96920c48194a7ed6" upstream="mgc/maintain/3.1"/>
-  <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="856a0c96c07934c6468d307d4367c1df0cb5e2e4" upstream="mgc/maintain/3.1"/>
-  <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="6708b930374e3f3bffcd6598307d54697c03e099" upstream="mgc/maintain/3.1"/>
-  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="a6d7eccb037c1b07659c4263bc4fe46e402595aa" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="c786727aad9824c916d8e9e4571bb1a0bd991768" upstream="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="f867c22d35968ef688e0dd20eaeb3d51862bcb07" upstream="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="203aa060eabb291e01dd4cf7d66fa3379e0e383a" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="6960a280e73208a3d7fbc00c8cdf0a52b8a70f16" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="cbbb68430469df512c667633a8f61c4e9b436748" upstream="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="c28aa181958b1905e7702f0d4b0fbdb9e7edf72a" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="d8bd549ca0de4760d9c63533013ebf773e4eb1dd" upstream="master"/>
-  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="92af903cc961230d534cdd33b49cc810bbe77372" upstream="mgc/maintain/0.1"/>
+  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="36814d077c8e0871070b1f218801f41816124a81" upstream="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
 
   <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="ffe62221ef589b6e388d2ca50fe0eec0fd9b1820" upstream="cdcbase_v2.18.5"/>
-  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="506b4f74bcc970cbf461c0f6d6ec84b772b77fc6" upstream="10.0.0_r20"/>
+  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="67bd0dbb0fe2437f11f741fe326d888a434ee69a" upstream="10.0.0_r20"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-tests-vts" path="android/test/vts/testcases/cdcbase_dlt-daemon-tests-vts" remote="cdcbase_android" revision="a8e0081c3e69d193a5b783448c97fdf7cd1690a5" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-android-app" path="android/device/samsung/sadkHR80/android-dlt-app" remote="cdcbase_android" revision="1eed52f4c0fd1fe8807ad2f0b75715c5bd37f17b" upstream="cdc_base/android_app_APK_v1.0"/>
 
