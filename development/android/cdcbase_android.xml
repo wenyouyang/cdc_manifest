@@ -772,7 +772,7 @@
   <project groups="android" name="cdcbase_usb-serial-for-android" path="android/external/usb-serial-for-android" remote="cdcbase_android" revision="90bc7d4cd63a70049065a312288fbf3d913ccccc" upstream="cdcbase_2.2.3_master"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="7304d6b066d4e8798532df892df8c8e4de6306de" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="6d43e63a1e1157b99cc925d8a3f96592997bf33b" upstream="master"/>
-  <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="b11c9754929b10b541b629713da76d61297f35a4" upstream="master"/>
+  <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="44f90de7f67aafd8acd1c261d34dcd65ea37199a" upstream="master"/>
   <project groups="android" name="cdcbase_android_legacy_appdrawer" path="android/packages/apps/Car/LegacyAppDrawer" remote="cdcbase_android" revision="be4b4399f556c96c3975b235e39cbfcc038d8d9c" upstream="master"/>
   <!-- OSS repositories -->
 
