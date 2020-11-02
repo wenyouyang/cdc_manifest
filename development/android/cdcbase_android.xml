@@ -744,7 +744,7 @@
   <project groups="android,pdk" name="platform_system_libhwbinder" path="android/system/libhwbinder" remote="cdcbase_android" revision="08970f2202a01beb1deca78db1dbea74c9cacb8e" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="412bc819e9bb7f44f5f88f96a37ec52db93657b1" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_tools_hidl" path="android/system/tools/hidl" remote="cdcbase_android" revision="9e89fa6f1fb9ed93ea231f83fe4e1edc86ba1033" upstream="cdc_base/10.0.0_r20"/>
-  <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="ffedae51e107b73e9551ef42b1cb84f3b48d3251" upstream="mgc/maintain/3.1"/>
+  <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="780ffd51c6060e70242fcae55670d60eead461ff" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="b8046ed381eadbb05b2b7e3f96920c48194a7ed6" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="c786727aad9824c916d8e9e4571bb1a0bd991768" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="f867c22d35968ef688e0dd20eaeb3d51862bcb07" upstream="mgc/maintain/3.1"/>
