@@ -755,7 +755,7 @@
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="d8bd549ca0de4760d9c63533013ebf773e4eb1dd" upstream="master"/>
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="7db9f775c5b073b10bb3ec36c07dac0393cddbc2" upstream="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
-  <project groups="android" path="android/external/sfi_gateway" name="sfi_gateway" remote="cdcbase_android" revision="3cfe352244b585be701afde8346b3c31031e37b7" upstream="mgc/maintain/0.1"/>
+  <project groups="android" path="android/external/sfi_gateway" name="sfi_gateway" remote="cdcbase_android" revision="35ad6b498f565b73ebfe5db9302724babc26ea25" upstream="mgc/maintain/0.1"/>
 
   <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="ffe62221ef589b6e388d2ca50fe0eec0fd9b1820" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="17534704e2be7a225ad11805b4e82f9a03767f4a" upstream="10.0.0_r20"/>
