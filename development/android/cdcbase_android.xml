@@ -764,7 +764,7 @@
 
   <!-- internal development repositories, no rebase required -->
   <!-- TODO: clarify the branch naming for the repositories -->
-  <project groups="android,pdk" name="platform_hardware_cypress_libbt" path="android/hardware/cypress/libbt" remote="cdcbase_android" revision="e86d8d3c9890b9d83b6f2c9a30f7d548fa9e2346" upstream="cdc_base/exynosauto9_dev_200114"/>
+  <project groups="android,pdk" name="platform_hardware_cypress_libbt" path="android/hardware/cypress/libbt" remote="cdcbase_android" revision="d6a1a5cb6d5671f1e71b73d4ef41225e42a0220c" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
