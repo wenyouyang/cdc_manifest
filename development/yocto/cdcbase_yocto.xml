@@ -15,7 +15,7 @@
         <project name="poky.git"                path="yocto/poky"                remote="tposs_yocto" revision="febbe2944c0c4a04b85fa98fdc261186115954d8" upstream="dunfell"      groups="yocto"/>
         <project name="meta-gplv2.git"          path="yocto/meta-gplv2"          remote="tposs_yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"      groups="yocto"/>
         <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"      groups="yocto"/>
-        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="ee1dcdfbb8d31f168b26c2e3e5be97efea6537df" upstream="master"       groups="yocto"/>
+        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="eba7c48f131d8fd5a1d840949d8ead2ecfe65edc" upstream="master"       groups="yocto"/>
         <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"      groups="yocto"/>
         <project name="meta-java.git"           path="yocto/meta-java"           remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"      groups="yocto"/>
         <project name="meta-python2.git"        path="yocto/meta-python2"        remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"      groups="yocto"/>
