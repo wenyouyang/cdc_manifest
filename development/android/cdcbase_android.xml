@@ -704,8 +704,7 @@
   <!-- cdcbase repositories -->
 
   <!-- build repository -->
-
-  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="cdc_base/10.0.0_r20">
+  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="909a84176166a1b2567fd00e2897819b0deccec2" upstream="cdc_base/10.0.0_r20">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
     <linkfile dest="android/build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="android/build/buildspec.mk.default" src="buildspec.mk.default"/>
