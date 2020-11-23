@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+        <!-- configure remote for Thirdparty Open Source Software -->
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_yocto" alias="origin" revision="zeus"/>
+
+        <!-- configure remote for the cdcbase - project -->
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase"  name="cdcbase_yocto"  alias="origin" revision="release/5.x" />
+
+        <!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
+
+    <!-- Yocto Open-source software -->
+        <!-- add Yocto 3.1.1/Dunfell layers -->
+        <project name="poky.git"                path="yocto/poky"                remote="tposs_yocto" revision="febbe2944c0c4a04b85fa98fdc261186115954d8" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-gplv2.git"          path="yocto/meta-gplv2"          remote="tposs_yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-openembedded.git"   path="yocto/meta-oe"             remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-clang.git"          path="yocto/meta-clang"          remote="tposs_yocto" revision="eba7c48f131d8fd5a1d840949d8ead2ecfe65edc" upstream="master"       groups="yocto"/>
+        <project name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-java.git"           path="yocto/meta-java"           remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-python2.git"        path="yocto/meta-python2"        remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"      groups="yocto"/>
+        <project name="meta-ivi.git"            path="yocto/meta-ivi"            remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior" groups="yocto"/>
+
+    <!-- cdcbase - project layers -->
+        <!-- add generic meta-mentor-cdcbase layer -->
+        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="49f3f6e36db1eb962bf9047096e342739a9aeeeb" upstream="release/5.x" groups="yocto"/>
+
+        <!-- add generic meta-mentor-cdcbase-testing layer -->
+        <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="0a7d105980f86a8383420ff0eedc922ff596c279" upstream="release/5.x" groups="yocto"/>
+
+        <!-- add Mentor adaptations for meta-ivi -->
+        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="8a5302e2a44e5d9facdb04a0a6fda6ed6ae1d408" upstream="release/5.x" groups="yocto"/>
+
+    <!-- Yocto BSP Layers for Samsung -->
+
+        <!-- add Samsung Automotive Development Kit BSP (v2.6.0) layers -->
+        <project name="Automotive_AHH3_v9_meta-samsung-bsp.git" path="yocto/meta-samsung-bsp"           remote="tpsamexv9_yocto" revision="2bbe3e9b7668605156f4b2b151d83c9b80836a07" upstream="exynosauto9_dev_thud_200602" groups="yocto"/>
+        <project name="Automotive_AHH3_v9_meta-samsung-la.git"  path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="f9e9055f3b0863e851b153ca0883c3e1f42b44c5" upstream="exynosauto9_dev_thud_200602" groups="yocto"/>
+        <project name="Automotive_AHH3_v9_hyp_meta-vl.git"      path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"      groups="yocto"/>
+
+        <!-- add Mentor adaptations for Samsung BSP -->
+        <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="c144272a8e808c79cee170cb45a8cd3c8f474f17" upstream="release/5.x" groups="yocto"/>
+</manifest>
