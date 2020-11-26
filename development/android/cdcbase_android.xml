@@ -752,7 +752,7 @@
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="a1f847f4d07b8f32ab99e6abcabc7349a92f2d46" upstream="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="c28aa181958b1905e7702f0d4b0fbdb9e7edf72a" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="d8bd549ca0de4760d9c63533013ebf773e4eb1dd" upstream="master"/>
-  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="be968e905879bcd948653f3f6b2bc620b3e1a473" upstream="mgc/maintain/0.1"/>
+  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="8b415866c50214103ce54ea2bface687b8afbbe0" upstream="mgc/maintain/0.1"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
   <project groups="android" path="android/external/sfi_gateway" name="sfi_gateway" remote="cdcbase_android" revision="ca88c1e7ada9178b6ec819c115ef31f895251c3e" upstream="mgc/maintain/0.1"/>
 
