@@ -39,5 +39,5 @@
         <project name="Automotive_AHH3_v9_hyp_meta-vl.git"      path="yocto/meta-samsung-virt/meta-vl"  remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"      groups="yocto"/>
 
         <!-- add Mentor adaptations for Samsung BSP -->
-        <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
+        <project name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="feature/CDC-3633-move-remaining-camera-intefaces-to-sysvm" groups="yocto"/>
 </manifest>
