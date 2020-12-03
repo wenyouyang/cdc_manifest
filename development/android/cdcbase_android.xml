@@ -721,7 +721,7 @@
    <!-- kernel repository -->
    <!-- rebaseable repository -->
 
-   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="e097cbe1cc21f9c136abc663cd3e4189ea8b3e9c" upstream="cdcbase_exynosauto9_dev_200602"/>
+   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="feature/CDC-3512-move-interfaces-related-to-cam_a-to-sysvm_v2"/>
 
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
