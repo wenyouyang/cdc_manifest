@@ -747,7 +747,7 @@
   <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="65b9cc98b2f01b263f73e1de6131fe7cb63c9fda" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="5cbd5944a7b99b17ce0719f1e599c1f6957f193e" upstream="mgc/maintain/3.1"/>
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="15d5b21e9cb3452dada71df6f53694337280d1a7" upstream="mgc/maintain/3.1"/>
-  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="87991108843215550e7da5ec7f23b32fb4fc548f" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="4ebea23072deafd420641ea6232b09b55a335079" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="17df41a4a38358616324b9b3e5b3a66f0cee0e3f" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="a1f847f4d07b8f32ab99e6abcabc7349a92f2d46" upstream="mgc/maintain/3.1"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="c28aa181958b1905e7702f0d4b0fbdb9e7edf72a" upstream="mgc/maintain/3.1"/>
