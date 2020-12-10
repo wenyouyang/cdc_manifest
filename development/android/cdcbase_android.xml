@@ -704,7 +704,7 @@
   <!-- cdcbase repositories -->
 
   <!-- build repository -->
-  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="1ff08e7bff4fa962e0ccad031fe7704994c493cb" upstream="cdc_base/10.0.0_r20">
+  <project groups="android,pdk" name="platform_build" path="android/build/make" remote="cdcbase_android" revision="3988bd84e6b67db313f2ca9abb99fd111812ebea" upstream="cdc_base/10.0.0_r20">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
     <linkfile dest="android/build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="android/build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -729,7 +729,7 @@
   <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="764e2fdf27b9404205515725d1b9fa6329413433" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="1590b6fd38d5ffc06e26e8808a1aa186a8d151b1" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="e2ad2c5fd02b9a13da84ef354a23186ddb6eb666" upstream="cdc_base/exynosauto9_dev_q_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="ad7e21538d081c8e4c031ea29316cc4944dbb9aa" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="6e279a517a2643866fe87eb2e4bd58fa2234b1e9" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="platform_external_wpa_supplicant_8" path="android/external/wpa_supplicant_8" remote="cdcbase_android" revision="287688d77ca663908766281080148bbbdffeb99c" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk-cw-fs,pdk-fs" name="Automotive_AHH3_v9_platform_frameworks_base" path="android/frameworks/base" remote="cdcbase_android" revision="7746dd6a1e0b3ed77a2bfc29a1b6fe995a5baeee" upstream="cdc_base/exynosauto9_dev_q_200602"/>
 
