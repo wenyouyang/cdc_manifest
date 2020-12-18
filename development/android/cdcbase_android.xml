@@ -767,7 +767,7 @@
   <project groups="android,pdk" name="platform_vendor_cypress_bcmdhd" path="android/vendor/cypress/bcmdhd" remote="cdcbase_android" revision="3ac464b9f759d74e05daa6b827e698ef265ba262" upstream="cdc_base/exynosauto9_dev_200114"/>
   <project groups="android,pdk" name="platform_vendor_cypress_hardware" path="android/vendor/cypress/hardware" remote="cdcbase_android" revision="2ed7d719de1496ec7bdb404fcf93a65f654cf953" upstream="cdc_base/exynosauto9_dev_200114"/>
 
-  <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="d5cf19137fe460447f8a595f882a371efc12c219" upstream="master"/>
+  <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="093f2d3cbbeb8f9fa6da2c7de17e43485ee4e23e" upstream="master"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="20ec3db9541a3b26f6d751ed29847a4b429429d8" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="6d43e63a1e1157b99cc925d8a3f96592997bf33b" upstream="master"/>
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="66cb550f74f7720760ad82b4674f682f1f1853a2" upstream="master"/>
