@@ -747,10 +747,12 @@
   <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="8370d7a13284955d6ba1ed5698e1775c38eea3cb" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="6c5f2af09197abc26369edf2223240dfd08bfb13" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="65561e660ec2a5fb2d0ad723be121484f2930ebf" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-android-tools" name="capicxx-android-tools" remote="cdcbase_android" revision="960c2c51ab3d5caaa47ba8fbb897a1d1898a9c8c" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="bd4dd25f3794c3880ea75b08d8df461f53196bd3" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="46ba586746c62d919bda0d5689f4da6ba01aa078" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="9a5a62831e06ef85fb7e10154558565da4595dae" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="7e7aed6effcca58e7b0225c10783389f99976ba0" upstream="mgc/maintain/3.2"/>
+  <project groups="android" clone-depth="1" path="android/external/capicxx-android-tools-prebuilt" name="capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="1b145dfbe6502900c179c1fe4d6a02dabbabb730" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="815d6f099220dde54001d293c8e286f1018a29bd" upstream="master"/>
   <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="330f96ae669de34c6ac3692d2f7df6b9e713a06b" upstream="mgc/maintain/1.0"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
