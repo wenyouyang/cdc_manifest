@@ -10,6 +10,9 @@
         <!-- configure remote for Mentor's Thirdparty Project for Samsung Automotive Development Kit -->
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
 
+        <!-- configure remote for the Mentor System Testing - project -->
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/xst"  name="mentor_system_testing"  alias="origin" revision="master" />
+
     <!-- Yocto Open-source software -->
         <!-- add Yocto 3.1.1/Dunfell layers -->
         <project name="poky.git"                path="yocto/poky"                remote="tposs_yocto" revision="febbe2944c0c4a04b85fa98fdc261186115954d8" upstream="dunfell"      groups="yocto"/>
@@ -27,6 +30,9 @@
 
         <!-- add generic meta-mentor-cdcbase-testing layer -->
         <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
+
+        <!-- add generic meta-mentor-sca-testing layer -->
+        <project name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" upstream="master" groups="yocto"/>
 
         <!-- add Mentor adaptations for meta-ivi -->
         <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
