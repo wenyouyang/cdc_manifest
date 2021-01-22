@@ -11,7 +11,7 @@
         <remote fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" alias="origin" revision="exynosauto9_dev_thud_200114" />
 
         <!-- configure remote for the Mentor System Testing - project -->
-        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/xst"  name="mentor_system_testing"  alias="origin" revision="master" />
+        <remote fetch="ssh://git@stash.alm.mentorg.com:7999/xst"  name="mentor_system_testing"  alias="origin" revision="feature/CDC-2670-activation-of-sca-checks" />
 
     <!-- Yocto Open-source software -->
         <!-- add Yocto 3.1.1/Dunfell layers -->
