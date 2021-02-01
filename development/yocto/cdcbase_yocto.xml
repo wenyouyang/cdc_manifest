@@ -26,7 +26,7 @@
 
     <!-- cdcbase - project layers -->
         <!-- add generic meta-mentor-cdcbase layer -->
-        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="master" groups="yocto" revision="feature/CDC-4393-activation-of-sca-checks"/>
+        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="master" groups="yocto" revision="master"/>
 
         <!-- add generic meta-mentor-cdcbase-testing layer -->
         <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
