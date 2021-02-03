@@ -721,7 +721,7 @@
    <!-- kernel repository -->
    <!-- rebaseable repository -->
 
-   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="feature/CDC-3633-move-remaining-camera-intefaces-to-sysvm_v2"/>
+   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="feature/CDC-3495-investigate-camera-configuration"/>
 
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
