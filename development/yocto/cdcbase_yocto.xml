@@ -26,7 +26,7 @@
 
     <!-- cdcbase - project layers -->
         <!-- add generic meta-mentor-cdcbase layer -->
-        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
+        <project name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="feature/CDC-3210-backport-ov5640-i2c-driver-updates-from-kernel-mainline" groups="yocto"/>
 
         <!-- add generic meta-mentor-cdcbase-testing layer -->
         <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
