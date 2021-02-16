@@ -7,14 +7,15 @@
   <project groups="yocto" name="Automotive_AHH3_v9_hyp_meta-vl.git" path="yocto/meta-samsung-virt/meta-vl" remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"/>
   <project groups="yocto" name="Automotive_AHH3_v9_meta-samsung-bsp.git" path="yocto/meta-samsung-bsp" remote="tpsamexv9_yocto" revision="2bbe3e9b7668605156f4b2b151d83c9b80836a07" upstream="exynosauto9_dev_thud_200602"/>
   <project groups="yocto" name="Automotive_AHH3_v9_meta-samsung-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="f9e9055f3b0863e851b153ca0883c3e1f42b44c5" upstream="exynosauto9_dev_thud_200602"/>
-  <project groups="yocto" name="meta-clang.git" path="yocto/meta-clang" remote="tposs_yocto" revision="ee1dcdfbb8d31f168b26c2e3e5be97efea6537df" upstream="master"/>
+  <project groups="yocto" name="meta-clang.git" path="yocto/meta-clang" remote="tposs_yocto" revision="eba7c48f131d8fd5a1d840949d8ead2ecfe65edc" upstream="master"/>
   <project groups="yocto" name="meta-gplv2.git" path="yocto/meta-gplv2" remote="tposs_yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell"/>
   <project groups="yocto" name="meta-ivi.git" path="yocto/meta-ivi" remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior"/>
   <project groups="yocto" name="meta-java.git" path="yocto/meta-java" remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"/>
   <project groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="0a7d105980f86a8383420ff0eedc922ff596c279" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="8db26541158a6a20da80798d1aeb559a5c8711c9" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="f167c9902919b401da972107928487f91498630d" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="ef0980560d04d0481e71b309a75e6736ffe4709f" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="221a7d635e4f4d9c12f9173782c4e150bfea603c" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="9fdd7b6ab368f08a7223f8884fbf023a1464a12e" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="0f4b464d4f6f4f230f9129c8980f610c0ea4b545" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" revision="e35a5c2b337d0f9f8f2d829aab2a5e377d2232ed" upstream="master"/>
   <project groups="yocto" name="meta-openembedded.git" path="yocto/meta-oe" remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"/>
   <project groups="yocto" name="meta-python2.git" path="yocto/meta-python2" remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"/>
   <project groups="yocto" name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"/>
