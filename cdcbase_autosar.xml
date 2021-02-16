@@ -2,5 +2,5 @@
 <manifest>
   <remote alias="origin" fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase" name="cdcbase_autosar" revision="master"/>
   
-  <project groups="autosar" name="cdc_base_autosar.git" path="autosar" remote="cdcbase_autosar" revision="0542cd3b2df8bccfd9e1ce292b15e7e958367c83" upstream="master"/>
+  <project groups="autosar" name="cdc_base_autosar.git" path="autosar" remote="cdcbase_autosar" revision="087c26d2087ceb17f271565c0af2bdde692f0d5b" upstream="master"/>
 </manifest>
