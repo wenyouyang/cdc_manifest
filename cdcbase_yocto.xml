@@ -3,7 +3,8 @@
   <remote alias="origin" fetch="ssh://git@stash.alm.mentorg.com:7999/cdcbase" name="cdcbase_yocto" revision="master"/>
   <remote alias="origin" fetch="ssh://git@stash.alm.mentorg.com:7999/tposs" name="tposs_yocto" revision="zeus"/>
   <remote alias="origin" fetch="ssh://git@stash.alm.mentorg.com:7999/tpsamexv9" name="tpsamexv9_yocto" revision="exynosauto9_dev_thud_200114"/>
-   
+  <remote alias="origin" fetch="ssh://git@stash.alm.mentorg.com:7999/xst" name="mentor_system_testing" revision="master" />
+
   <project groups="yocto" name="Automotive_AHH3_v9_hyp_meta-vl.git" path="yocto/meta-samsung-virt/meta-vl" remote="tpsamexv9_yocto" revision="0644260b1ff7e0577d0cd7dcada24ea03d9c5505" upstream="exynosauto9_dev_200602"/>
   <project groups="yocto" name="Automotive_AHH3_v9_meta-samsung-bsp.git" path="yocto/meta-samsung-bsp" remote="tpsamexv9_yocto" revision="2bbe3e9b7668605156f4b2b151d83c9b80836a07" upstream="exynosauto9_dev_thud_200602"/>
   <project groups="yocto" name="Automotive_AHH3_v9_meta-samsung-la.git" path="yocto/meta-samsung-virt/meta-sys" remote="tpsamexv9_yocto" revision="f9e9055f3b0863e851b153ca0883c3e1f42b44c5" upstream="exynosauto9_dev_thud_200602"/>
