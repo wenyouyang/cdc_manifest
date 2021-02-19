@@ -726,7 +726,7 @@
    <!-- android userland -->
    <!-- rebasable repositories against new release -->
 
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="196a5f955c39b52107c18d251101fd2a9aeb4c69" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="ef4fb547d27429165441f2b28d17ccdc709b7131" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_exynos" path="android/hardware/samsung_slsi/exynos" remote="cdcbase_android" revision="1590b6fd38d5ffc06e26e8808a1aa186a8d151b1" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="e2ad2c5fd02b9a13da84ef354a23186ddb6eb666" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="4bb291529c18feb316115e6a0fe8760af41fc863" upstream="cdc_base/exynosauto9_dev_q_200602"/>
@@ -775,6 +775,8 @@
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="b449d1ccbfff67f350bdd9901cc057276abc56b2" upstream="master"/>
   <project groups="android" name="cdcbase_android_legacy_appdrawer" path="android/packages/apps/Car/LegacyAppDrawer" remote="cdcbase_android" revision="be4b4399f556c96c3975b235e39cbfcc038d8d9c" upstream="master"/>
   <project groups="android" name="cdcbase_android_maps" path="android/external/cdcmaps" remote="cdcbase_android" revision="5318d45ab74054bf1238a88ae5ad584bb374b1ce" upstream="master"/>
+  <project groups="android" name="rtl_sdr_tools" path="android/external/rtl_sdr_tools" remote="cdcbase_android" revision="2afdd9191d2a93f2493a2976a3c4aeb3dae0bdfa" upstream="master"/>
+  <project groups="android" name="sdr_radio_app" path="android/external/sdr_radio_app" remote="cdcbase_android" revision="a142a58cc2c2b1656dd5e5e83202e879eb4ac9f3" upstream="master"/>
   <!-- OSS repositories -->
 
 </manifest>
