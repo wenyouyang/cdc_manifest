@@ -32,7 +32,7 @@
         <project name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" upstream="release/8.x" groups="yocto"/>
 
         <!-- add generic meta-mentor-sca-testing layer -->
-        <project name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" upstream="release/8.x" groups="yocto"/>
+        <project name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" upstream="master" groups="yocto"/>
 
         <!-- add Mentor adaptations for meta-ivi -->
         <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="release/8.x" groups="yocto"/>
