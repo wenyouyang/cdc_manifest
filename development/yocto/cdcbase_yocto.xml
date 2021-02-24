@@ -37,6 +37,9 @@
         <!-- add Mentor adaptations for meta-ivi -->
         <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
 
+        <!-- add Mentor meta-mentor-lola layer for LOLA support -->
+        <project name="meta-mentor-lola.git" path="yocto/meta-mentor-lola" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
+
     <!-- Yocto BSP Layers for Samsung -->
 
         <!-- add Samsung Automotive Development Kit BSP (v2.6.0) layers -->
