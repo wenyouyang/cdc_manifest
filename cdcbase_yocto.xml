@@ -15,6 +15,7 @@
   <project groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="0a7d105980f86a8383420ff0eedc922ff596c279" upstream="master"/>
   <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="221a7d635e4f4d9c12f9173782c4e150bfea603c" upstream="master"/>
   <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="6d4981a543994357d27fcb843a180997c3ffd0fe" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-lola.git" path="yocto/meta-mentor-lola" remote="cdcbase_yocto" revision="ebaa1988dce2e964e80805d60e9819825377d450" upstream="master"/>
   <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="0f4b464d4f6f4f230f9129c8980f610c0ea4b545" upstream="master"/>
   <project groups="yocto" name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" revision="e35a5c2b337d0f9f8f2d829aab2a5e377d2232ed" upstream="master"/>
   <project groups="yocto" name="meta-openembedded.git" path="yocto/meta-oe" remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"/>
