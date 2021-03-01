@@ -49,7 +49,7 @@
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="b449d1ccbfff67f350bdd9901cc057276abc56b2" upstream="master"/>
   <project groups="android" name="cdcbase_dlt-daemon" path="android/external/cdcbase_dlt-daemon" remote="cdcbase_android" revision="bf9f3038988375afdec6e621c248b99fbff35fd5" sync-s="true" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-android-app" path="android/device/samsung/sadkHR80/android-dlt-app" remote="cdcbase_android" revision="1eed52f4c0fd1fe8807ad2f0b75715c5bd37f17b" upstream="cdc_base/android_app_APK_v1.0"/>
-  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="1ad901d41b781ba612d7b1f0aad63f9b02a27c20" upstream="mgc/maintain/1.0"/>
+  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="be51ad14d45cdaa1706774e74371546988f0ba31" upstream="mgc/maintain/1.0"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="20ec3db9541a3b26f6d751ed29847a4b429429d8" upstream="master"/>
   <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="a9fb26bec43c6685bc42f3a9ece0aea23b10c009" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="6d43e63a1e1157b99cc925d8a3f96592997bf33b" upstream="master"/>
