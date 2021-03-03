@@ -743,20 +743,20 @@
   <project groups="android,pdk" name="platform_system_libhwbinder" path="android/system/libhwbinder" remote="cdcbase_android" revision="08970f2202a01beb1deca78db1dbea74c9cacb8e" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="02eb47287d569279b1ac569100584a8d03511990" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_tools_hidl" path="android/system/tools/hidl" remote="cdcbase_android" revision="9e89fa6f1fb9ed93ea231f83fe4e1edc86ba1033" upstream="cdc_base/10.0.0_r20"/>
-  <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="51b51ccb08ba920a3015751fa85ea682c2d22803" upstream="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="b7a58fcf345f9732a506a2e97cc0ae0ae1ee0d9c" upstream="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="478c89399f76ccf50c77b9c6a82c6e8634e81436" upstream="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="65f3c79d132188c309bc208c28df7f8535be6053" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-core-runtime" name="capicxx-core-runtime" remote="cdcbase_android" revision="bfc0d1e3a9db9ce0adf2208480da77ffddfdb4fa" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="cdcbase_android" revision="d08b1abf0e51e3f40a1606d714c4a746663b4ebc" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-core-tools" name="capicxx-core-tools" remote="cdcbase_android" revision="80de455b0a845107eaaf6cd68cab98dcb0387265" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/capicxx-someip-tools" name="capicxx-someip-tools" remote="cdcbase_android" revision="8857eed6954155ff9228351be906190aed42663f" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/capicxx-android-tools" name="capicxx-android-tools" remote="cdcbase_android" revision="2e3408c46fa56d48868cd0a2eea1035baa68c5a1" upstream="mgc/maintain/3.2"/>
-  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="ad9f626f226f7e56a565187740bf9991e73c8a79" upstream="mgc/maintain/3.2"/>
+  <project groups="android" path="android/external/vsomeip" name="vsomeip" remote="cdcbase_android" revision="e762163dd4f083a25bbc94ca1a8fc413dfdf62fd" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/external/vsomeip-config" name="vsomeip-config" remote="cdcbase_android" revision="46ba586746c62d919bda0d5689f4da6ba01aa078" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-core-tools-prebuilt" name="capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="9a5a62831e06ef85fb7e10154558565da4595dae" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-someip-tools-prebuilt" name="capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="7e7aed6effcca58e7b0225c10783389f99976ba0" upstream="mgc/maintain/3.2"/>
   <project groups="android" clone-depth="1" path="android/external/capicxx-android-tools-prebuilt" name="capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="4170b99e0cc6b5c66f806d2e878fcbdd605de6ad" upstream="mgc/maintain/3.2"/>
   <project groups="android" path="android/packages/apps/Car/Ramses" name="ramses-prebuilt-apk" remote="cdcbase_android" revision="0a94a5a27ea0ed9a6e671fcd47e5ffafb07d28a0" upstream="master"/>
-  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="be51ad14d45cdaa1706774e74371546988f0ba31" upstream="mgc/maintain/1.0"/>
+  <project groups="android" path="android/external/interface_catalogue" name="cdcbase_interface_catalogue" remote="cdcbase_android" revision="529babf169e68f287cd31074e8c71662c391a536" upstream="mgc/maintain/1.0"/>
   <project groups="android" path="android/external/boost" name="boost" remote="cdcbase_android" sync-s="true" revision="171b032e368231ca96300c9972fd21a12b878a12" upstream="cdc_base/development"/>
-  <project groups="android" path="android/external/sfi_gateway" name="sfi_gateway" remote="cdcbase_android" revision="6df074111f4a5c4532a9793d7a49696bdf2ef282" upstream="mgc/maintain/0.1"/>
+  <project groups="android" path="android/external/sfi_gateway" name="sfi_gateway" remote="cdcbase_android" revision="0dbea5936bde8835f43508abd025e08c201eecfe" upstream="mgc/maintain/0.1"/>
 
   <project groups="android" path="android/external/cdcbase_dlt-daemon" name="cdcbase_dlt-daemon" remote="cdcbase_android" sync-s="true" revision="bf9f3038988375afdec6e621c248b99fbff35fd5" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="d5b97d15511c3e76258fbd309ef19c2920320ccc" upstream="10.0.0_r20"/>
