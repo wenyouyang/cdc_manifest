@@ -43,16 +43,16 @@
   <project groups="android" name="capicxx-someip-runtime" path="android/external/capicxx-someip-runtime" remote="cdcbase_android" revision="d08b1abf0e51e3f40a1606d714c4a746663b4ebc" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-someip-tools" path="android/external/capicxx-someip-tools" remote="cdcbase_android" revision="65f3c79d132188c309bc208c28df7f8535be6053" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-someip-tools-prebuilt" path="android/external/capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="7e7aed6effcca58e7b0225c10783389f99976ba0" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="cdcbase-rvc" path="android/external/cdcbase-rvc" remote="cdcbase_android" revision="a6e7f5206c359742a62464c08fd993427767dcd3" upstream="master"/>
   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="abd95b1652b71a488e0c2012a21f7d90e74c3190" upstream="cdcbase_exynosauto9_dev_200602"/>
   <project groups="android" name="cdcbase_android_legacy_appdrawer" path="android/packages/apps/Car/LegacyAppDrawer" remote="cdcbase_android" revision="be4b4399f556c96c3975b235e39cbfcc038d8d9c" upstream="master"/>
   <project groups="android" name="cdcbase_android_maps" path="android/external/cdcmaps" remote="cdcbase_android" revision="5318d45ab74054bf1238a88ae5ad584bb374b1ce" upstream="master"/>
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="b449d1ccbfff67f350bdd9901cc057276abc56b2" upstream="master"/>
   <project groups="android" name="cdcbase_dlt-daemon" path="android/external/cdcbase_dlt-daemon" remote="cdcbase_android" revision="bf9f3038988375afdec6e621c248b99fbff35fd5" sync-s="true" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-android-app" path="android/device/samsung/sadkHR80/android-dlt-app" remote="cdcbase_android" revision="1eed52f4c0fd1fe8807ad2f0b75715c5bd37f17b" upstream="cdc_base/android_app_APK_v1.0"/>
-  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="b1fd8668a0e943e386a7d395407b1ced972f9c21" upstream="mgc/maintain/1.0"/>
+  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="9fed3aa05dab9e816ba69bc229f65e82788dc366" upstream="mgc/maintain/1.0"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="20ec3db9541a3b26f6d751ed29847a4b429429d8" upstream="master"/>
   <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="a9fb26bec43c6685bc42f3a9ece0aea23b10c009" upstream="master"/>
-  <project groups="android" name="cdcbase-rvc" path="android/external/cdcbase-rvc" remote="cdcbase_android" revision="a6e7f5206c359742a62464c08fd993427767dcd3" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="6d43e63a1e1157b99cc925d8a3f96592997bf33b" upstream="master"/>
   <project groups="android,pdk-cw-fs,pdk" name="device_common" path="android/device/common" revision="0765164ad7e409c27eb5066da44351b8cd1515db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_arm64" path="android/device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-10.0.0_r20"/>
