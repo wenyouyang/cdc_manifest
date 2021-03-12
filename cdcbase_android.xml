@@ -35,8 +35,8 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="578cee0bb6d7c7a25b00ed47d94defc4dce48a1b" upstream="exynosauto9_dev_200602"/>
   <project groups="android" name="boost" path="android/external/boost" remote="cdcbase_android" revision="171b032e368231ca96300c9972fd21a12b878a12" sync-s="true" upstream="cdc_base/development"/>
-  <project groups="android" name="capicxx-android-tools" path="android/external/capicxx-android-tools" remote="cdcbase_android" revision="3ba37880fe4bb347db4ed797dd9bbd330911d87d" upstream="mgc/maintain/3.2"/>
-  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="31ec6070b3b609291ac16d9eda3cc5455e8f0d7e" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-android-tools" path="android/external/capicxx-android-tools" remote="cdcbase_android" revision="30818d7aa68da364a37853eeb60c3081d55b9df2" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="2e2b87041b095f9e0176b7524e3652b34e380831" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-runtime" path="android/external/capicxx-core-runtime" remote="cdcbase_android" revision="bfc0d1e3a9db9ce0adf2208480da77ffddfdb4fa" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-tools" path="android/external/capicxx-core-tools" remote="cdcbase_android" revision="80de455b0a845107eaaf6cd68cab98dcb0387265" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-tools-prebuilt" path="android/external/capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="9a5a62831e06ef85fb7e10154558565da4595dae" upstream="mgc/maintain/3.2"/>
@@ -50,7 +50,7 @@
   <project groups="android" name="cdcbase_android_music_frontend" path="android/packages/apps/Car/MentorMusic" remote="cdcbase_android" revision="b449d1ccbfff67f350bdd9901cc057276abc56b2" upstream="master"/>
   <project groups="android" name="cdcbase_dlt-daemon" path="android/external/cdcbase_dlt-daemon" remote="cdcbase_android" revision="bf9f3038988375afdec6e621c248b99fbff35fd5" sync-s="true" upstream="cdcbase_v2.18.5"/>
   <project groups="android,vts,pdk" name="cdcbase_dlt-daemon-android-app" path="android/device/samsung/sadkHR80/android-dlt-app" remote="cdcbase_android" revision="1eed52f4c0fd1fe8807ad2f0b75715c5bd37f17b" upstream="cdc_base/android_app_APK_v1.0"/>
-  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="d4e253c1e88c477bd940d2652a20664fb120402a" upstream="mgc/maintain/1.0"/>
+  <project groups="android" name="cdcbase_interface_catalogue" path="android/external/interface_catalogue" remote="cdcbase_android" revision="f5e3fdb9646ddb2b8663a50cd9ad83ec7bea5e9f" upstream="mgc/maintain/1.0"/>
   <project groups="android" name="cdcbase_material-design-x-release" path="android/external/material-design-x-release" remote="cdcbase_android" revision="20ec3db9541a3b26f6d751ed29847a4b429429d8" upstream="master"/>
   <project groups="android" name="cdcbase_mentor_hmi" path="android/packages/apps/Car/MentorCarLauncher" remote="cdcbase_android" revision="a9fb26bec43c6685bc42f3a9ece0aea23b10c009" upstream="master"/>
   <project groups="android" name="cdcbase_sw_updater_app_android" path="android/packages/apps/Car/MentorFirmwareUpdater" remote="cdcbase_android" revision="6d43e63a1e1157b99cc925d8a3f96592997bf33b" upstream="master"/>
