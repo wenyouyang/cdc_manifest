@@ -13,7 +13,7 @@
   <project groups="yocto" name="meta-ivi.git" path="yocto/meta-ivi" remote="tposs_yocto" revision="3a7b310b5386b1b745308938534f467cbc39b938" upstream="16.x-warrior"/>
   <project groups="yocto" name="meta-java.git" path="yocto/meta-java" remote="tposs_yocto" revision="cf9604a4789801d9dfb0cb8ca134ff04b42ae161" upstream="dunfell"/>
   <project groups="yocto" name="meta-mentor-cdcbase-testing.git" path="yocto/meta-mentor-cdcbase-testing" remote="cdcbase_yocto" revision="0a7d105980f86a8383420ff0eedc922ff596c279" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="57824af00c28b6db2b86e4eef427418867a4182c" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-cdcbase.git" path="yocto/meta-mentor-cdcbase" remote="cdcbase_yocto" revision="ca1c5d385e4db06226893565252b45e706d704d6" upstream="master"/>
   <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="dfc78fdd8fa6f637fc4a80fdab40161dbe462b76" upstream="master"/>
   <project groups="yocto" name="meta-mentor-lola.git" path="yocto/meta-mentor-lola" remote="cdcbase_yocto" revision="19241fd300c90f75a7d0ad0fc3714d581aeb9dff" upstream="master"/>
   <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="0f4b464d4f6f4f230f9129c8980f610c0ea4b545" upstream="master"/>
