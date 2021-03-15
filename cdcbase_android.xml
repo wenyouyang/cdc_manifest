@@ -35,8 +35,8 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="578cee0bb6d7c7a25b00ed47d94defc4dce48a1b" upstream="exynosauto9_dev_200602"/>
   <project groups="android" name="boost" path="android/external/boost" remote="cdcbase_android" revision="171b032e368231ca96300c9972fd21a12b878a12" sync-s="true" upstream="cdc_base/development"/>
-  <project groups="android" name="capicxx-android-tools" path="android/external/capicxx-android-tools" remote="cdcbase_android" revision="30818d7aa68da364a37853eeb60c3081d55b9df2" upstream="mgc/maintain/3.2"/>
-  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="2e2b87041b095f9e0176b7524e3652b34e380831" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-android-tools" path="android/external/capicxx-android-tools" remote="cdcbase_android" revision="f27d7e0aa37a93b514d2705b761bd5d75cac1ba5" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="77a7346f03bd53ea3f6ee7c4fd7c17a389d108bc" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-runtime" path="android/external/capicxx-core-runtime" remote="cdcbase_android" revision="bfc0d1e3a9db9ce0adf2208480da77ffddfdb4fa" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-tools" path="android/external/capicxx-core-tools" remote="cdcbase_android" revision="80de455b0a845107eaaf6cd68cab98dcb0387265" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-core-tools-prebuilt" path="android/external/capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="9a5a62831e06ef85fb7e10154558565da4595dae" upstream="mgc/maintain/3.2"/>
