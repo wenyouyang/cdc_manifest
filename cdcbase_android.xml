@@ -35,8 +35,8 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_widevine" path="android/vendor/widevine" remote="samsung" revision="e24acce540515b7ac0278e2ea1ef0bb1ddf321bf" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,ubm" name="Automotive_AHH3_v9_ubm" path="android/external/ubm" remote="v9" revision="578cee0bb6d7c7a25b00ed47d94defc4dce48a1b" upstream="exynosauto9_dev_200602"/>
   <project groups="android" name="boost" path="android/external/boost" remote="cdcbase_android" revision="171b032e368231ca96300c9972fd21a12b878a12" sync-s="true" upstream="cdc_base/development"/>
-  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="78f74193cf3842deca7d32c400b54bba2d656cd5" upstream="mgc/maintain/3.2"/>
-  <project groups="android" name="capicxx-core-tools-prebuilt" path="android/external/capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="9a5a62831e06ef85fb7e10154558565da4595dae" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-android-tools-prebuilt" path="android/external/capicxx-android-tools-prebuilt" remote="cdcbase_android" revision="c1a2df8d97a4df521855e4227d762cfe90d0e1a7" upstream="mgc/maintain/3.2"/>
+  <project groups="android" name="capicxx-core-tools-prebuilt" path="android/external/capicxx-core-tools-prebuilt" remote="cdcbase_android" revision="98ae3dd3e7abb48a4d9d0f0485ebc641cb549991" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="capicxx-someip-tools-prebuilt" path="android/external/capicxx-someip-tools-prebuilt" remote="cdcbase_android" revision="7e7aed6effcca58e7b0225c10783389f99976ba0" upstream="mgc/maintain/3.2"/>
   <project groups="android" name="cdcbase-rvc" path="android/external/cdcbase-rvc" remote="cdcbase_android" revision="a6e7f5206c359742a62464c08fd993427767dcd3" upstream="master"/>
   <project groups="android" name="cdcbase-sadk-andvm-kernel" path="android/kernel/exynos" remote="cdcbase_android" revision="b5c6eee13234811c0166ea30cf668641b0f92c46" upstream="cdcbase_exynosauto9_dev_200602"/>
@@ -73,7 +73,7 @@
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_tests" path="android/kernel/tests" revision="5a30afe65eda92d244538dffec627d850e3699d7" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="cef0b51d72e0f2ab155e2d333fa5550194ac8dbc" upstream="master"/>
+  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="19d166bb06036bbd262850900e6904ece3a43780" upstream="master"/>
   <project groups="android" name="node-state-manager-android" path="android/external/node-state-manager-android" remote="cdcbase_android" revision="7787f3bd17fb12927c06ce48dd22e627a4e9c726" sync-s="true" upstream="cdcbase/nsm_android_1.0"/>
   <project groups="android,pdk" name="platform_art" path="android/art" revision="dc8b152a38ecc359e56529a074fe6f4331a8290d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bionic" path="android/bionic" revision="c05ce3ef5b225bcdfec2c570491d5353ec3fb8d4" upstream="refs/tags/android-10.0.0_r20"/>
