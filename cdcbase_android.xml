@@ -73,7 +73,7 @@
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_tests" path="android/kernel/tests" revision="5a30afe65eda92d244538dffec627d850e3699d7" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="90fd56f0598eb219382bcf02b80d2b77c1a5d7a3" upstream="master"/>
+  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="a94191b9e38943cfac37962cc6f55ba18f9c761b" upstream="master"/>
   <project groups="android" name="node-state-manager-android" path="android/external/node-state-manager-android" remote="cdcbase_android" revision="7787f3bd17fb12927c06ce48dd22e627a4e9c726" sync-s="true" upstream="cdcbase/nsm_android_1.0"/>
   <project groups="android,pdk" name="platform_art" path="android/art" revision="dc8b152a38ecc359e56529a074fe6f4331a8290d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bionic" path="android/bionic" revision="c05ce3ef5b225bcdfec2c570491d5353ec3fb8d4" upstream="refs/tags/android-10.0.0_r20"/>
