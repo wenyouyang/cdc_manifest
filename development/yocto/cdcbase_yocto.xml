@@ -35,7 +35,7 @@
         <project name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" upstream="master" groups="yocto"/>
 
         <!-- add Mentor adaptations for meta-ivi -->
-        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
+        <project name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" upstream="bugfix/CDC-4784-nsm-dummy-clients-encounter-the-error-sequential-client-timeout" revision="127da5e43cd529f2ad98db0f3710ec9c58d9804e" groups="yocto"/>
 
         <!-- add Mentor meta-mentor-lola layer for LOLA support -->
         <project name="meta-mentor-lola.git" path="yocto/meta-mentor-lola" remote="cdcbase_yocto" upstream="master" groups="yocto"/>
