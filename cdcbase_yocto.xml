@@ -17,7 +17,7 @@
   <project groups="yocto" name="meta-mentor-ivi.git" path="yocto/meta-mentor-ivi" remote="cdcbase_yocto" revision="bccd616bd4952f8df64d2bd2b1ce7fa57c89fb69" upstream="master"/>
   <project groups="yocto" name="meta-mentor-lola.git" path="yocto/meta-mentor-lola" remote="cdcbase_yocto" revision="086d154892ec79ca8daff4dcc84ff24638878225" upstream="master"/>
   <project groups="yocto" name="meta-mentor-samsung-bsp.git" path="yocto/meta-mentor-samsung-bsp" remote="cdcbase_yocto" revision="0b64d1c4050a11701d9340c9d4c8d6c730c4f0c5" upstream="master"/>
-  <project groups="yocto" name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" revision="e35a5c2b337d0f9f8f2d829aab2a5e377d2232ed" upstream="master"/>
+  <project groups="yocto" name="meta-mentor-sca-testing.git" path="yocto/meta-mentor-sca-testing" remote="mentor_system_testing" revision="fa2297d7d642d564f831e2b1124b920a0c088608" upstream="master"/>
   <project groups="yocto" name="meta-openembedded.git" path="yocto/meta-oe" remote="tposs_yocto" revision="cc6fc6b1641ab23089c1e3bba11e0c6394f0867c" upstream="dunfell"/>
   <project groups="yocto" name="meta-python2.git" path="yocto/meta-python2" remote="tposs_yocto" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell"/>
   <project groups="yocto" name="meta-virtualization.git" path="yocto/meta-virtualization" remote="tposs_yocto" revision="ffd787fb850e5a1657a01febc8402c74832147a1" upstream="dunfell"/>
