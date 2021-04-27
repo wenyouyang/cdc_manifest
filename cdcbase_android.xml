@@ -9,7 +9,7 @@
   <default remote="aosp" revision="refs/tags/android-10.0.0_r20" sync-j="8"/>
   
   <project groups="android" name="Automotive_AHH3_v9_bl2-boot" path="android/tools/bl2-boot" remote="samsung" revision="7221e23d0fe6a26549a6781e82001f04cae316a5" upstream="exynosauto9_dev_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="34ffc32b1bf1b3d3d410ca0d9acc07925ad9f558" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="dcb28e3d0b08b890a1346458ac4ad313685be22d" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_device_samsung_sepolicy" path="android/device/samsung/sepolicy" remote="samsung" revision="eeb60cfb9f2322e9990101819039ef92119f104a" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,drm_hwcomposer,pdk-fs,q-fs-release" name="Automotive_AHH3_v9_platform_external_drm_hwcomposer" path="android/external/drm_hwcomposer" remote="samsung" revision="a79f2ad7712f2c6232033b5ba715d3ca660dedf6" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="Automotive_AHH3_v9_platform_external_libdrm" path="android/external/libdrm" remote="samsung" revision="66a2e956c033cab7ffe94ba50883f83820146433" upstream="exynosauto9_dev_q_200602"/>
@@ -51,7 +51,7 @@
   <project groups="android,pdk-cw-fs,pdk" name="device_common" path="android/device/common" revision="0765164ad7e409c27eb5066da44351b8cd1515db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_arm64" path="android/device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_armv7-a-neon" path="android/device/generic/armv7-a-neon" revision="4f543eb2e85a4b140d829ba5e186c895923f67fc" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="7f7cec40c876a889ec8e71704fadcf129845bc8e" upstream="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="1b3f2179d8350137ec112757da1402c7d6771634" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_common" path="android/device/generic/common" revision="d440fc5f099d8ad8f32e5eb271e9124c992dad7f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish" path="android/device/generic/goldfish" revision="b2428bd84a62e8a5408a1e2976133e64e2928e62" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish-opengl" path="android/device/generic/goldfish-opengl" revision="2f3aec5f6a3fcefa98a6d358e8ddb87d317227a1" upstream="refs/tags/android-10.0.0_r20"/>
@@ -73,7 +73,7 @@
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_tests" path="android/kernel/tests" revision="5a30afe65eda92d244538dffec627d850e3699d7" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="e8a1198f4844116e8cad2657550c4e3c5c18f736" upstream="master"/>
+  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="696a4cc6ad00bfe77ab4da8bc61dcd1b0efceef3" upstream="master"/>
   <project groups="android" name="node-state-manager-android" path="android/external/node-state-manager-android" remote="cdcbase_android" revision="7787f3bd17fb12927c06ce48dd22e627a4e9c726" sync-s="true" upstream="cdcbase/nsm_android_1.0"/>
   <project groups="android,pdk" name="platform_art" path="android/art" revision="dc8b152a38ecc359e56529a074fe6f4331a8290d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bionic" path="android/bionic" revision="c05ce3ef5b225bcdfec2c570491d5353ec3fb8d4" upstream="refs/tags/android-10.0.0_r20"/>
