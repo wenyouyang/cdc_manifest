@@ -21,7 +21,7 @@
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_base" path="android/hardware/samsung_slsi/graphics/base" remote="samsung" revision="0f04758cbb4f5e563ff596a1e1f170367d915382" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_graphics_exynosauto9" path="android/hardware/samsung_slsi/graphics/exynosauto9" remote="cdcbase_android" revision="e2ad2c5fd02b9a13da84ef354a23186ddb6eb666" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_hardware_samsung_slsi_openmax" path="android/hardware/samsung_slsi/openmax" remote="samsung" revision="f5fee0b0f918db0ad4b329896a855a5cd1ab1cfe" upstream="exynosauto9_dev_q_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="a1349d9b2a1ac577e144ccd2d2bb7b9e67ccedda" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_platform_packages_services_Car" path="android/packages/services/Car" remote="cdcbase_android" revision="d649ffcb6c7b81bf979ae0f349738e60462051b8" upstream="cdc_base/exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="Automotive_AHH3_v9_platform_system_hardware_interfaces" path="android/system/hardware/interfaces" remote="samsung" revision="6b6a028a46c8f2e95900ca2f63c8e157dd972b7b" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_common" path="android/vendor/samsung_slsi/common" remote="samsung" revision="11ee220bc640febf237f94577ffe1b1c35e2e76f" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android" name="Automotive_AHH3_v9_platform_vendor_samsung_slsi_exynos_eden" path="android/vendor/samsung_slsi/exynos/eden" remote="samsung" revision="488ad7660445f0f76ba461dc2f9d52e4e697eb8b" upstream="exynosauto9_dev_q_200602"/>
@@ -51,7 +51,7 @@
   <project groups="android,pdk-cw-fs,pdk" name="device_common" path="android/device/common" revision="0765164ad7e409c27eb5066da44351b8cd1515db" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_arm64" path="android/device/generic/arm64" revision="b2aea8576e3928e9add8b616740e56c1c5a811d2" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_armv7-a-neon" path="android/device/generic/armv7-a-neon" revision="4f543eb2e85a4b140d829ba5e186c895923f67fc" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="1b3f2179d8350137ec112757da1402c7d6771634" upstream="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="device_generic_car" path="android/device/generic/car" remote="cdcbase_android" revision="722619e3c840d0dba71e8e59d1c69044d32d18a1" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_common" path="android/device/generic/common" revision="d440fc5f099d8ad8f32e5eb271e9124c992dad7f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish" path="android/device/generic/goldfish" revision="b2428bd84a62e8a5408a1e2976133e64e2928e62" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="device_generic_goldfish-opengl" path="android/device/generic/goldfish-opengl" revision="2f3aec5f6a3fcefa98a6d358e8ddb87d317227a1" upstream="refs/tags/android-10.0.0_r20"/>
@@ -73,7 +73,7 @@
   <project groups="android" name="kernel_build" path="android/kernel/build" revision="14be2d1fcb097b45f50d14085a032f1d34d62a7b" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_configs" path="android/kernel/configs" revision="12cbd4f22783d835776ab0ecdfee59179cf1e53c" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="kernel_tests" path="android/kernel/tests" revision="5a30afe65eda92d244538dffec627d850e3699d7" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="45b2bab997660f70a5c17acf795a70f3c9d88456" upstream="master"/>
+  <project groups="android" name="mcf" path="android/external/mcf" remote="cdcbase_android" revision="9e962c419ab11d0f0f8ab88a522137874b34461d" upstream="master"/>
   <project groups="android" name="node-state-manager-android" path="android/external/node-state-manager-android" remote="cdcbase_android" revision="7787f3bd17fb12927c06ce48dd22e627a4e9c726" sync-s="true" upstream="cdcbase/nsm_android_1.0"/>
   <project groups="android,pdk" name="platform_art" path="android/art" revision="dc8b152a38ecc359e56529a074fe6f4331a8290d" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_bionic" path="android/bionic" revision="c05ce3ef5b225bcdfec2c570491d5353ec3fb8d4" upstream="refs/tags/android-10.0.0_r20"/>
@@ -701,7 +701,7 @@
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_dashboard" path="android/test/vti/dashboard" revision="a9bd47e4caa21d535fb89c0e6efe23fa08d25847" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_fuzz_test_serving" path="android/test/vti/fuzz_test_serving" revision="6319e3d94c65669050c49c6ca570096d41823b82" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vti_test_serving" path="android/test/vti/test_serving" revision="417ad51c260dc9d0bfc6b64e567fa67b112c1560" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="d5b97d15511c3e76258fbd309ef19c2920320ccc" upstream="10.0.0_r20"/>
+  <project groups="android,vts,pdk" name="platform_test_vts" path="android/test/vts" remote="cdcbase_android" revision="67b2a80567b51625be3298b2f46ffda45bb25932" upstream="10.0.0_r20"/>
   <project groups="android,vts,projectarch,pdk" name="platform_test_vts-testcase_fuzz" path="android/test/vts-testcase/fuzz" revision="3845288c52bf080b0c5a01005de15e11a0033254" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="platform_test_vts-testcase_hal" path="android/test/vts-testcase/hal" revision="55c563fcd751379525c3c467d189135173663219" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,vts,pdk" name="platform_test_vts-testcase_hal-trace" path="android/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="refs/tags/android-10.0.0_r20"/>
