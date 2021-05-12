@@ -496,7 +496,7 @@
   <project groups="android,pdk" name="platform_hardware_google_av" path="android/hardware/google/av" revision="603cdfa32c0e65f4c815fef775555db6509a124e" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk,easel" name="platform_hardware_google_easel" path="android/hardware/google/easel" revision="48b47d1409524b2cf5678ace7dc1f2f4574e1e54" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_google_interfaces" path="android/hardware/google/interfaces" revision="530e20d5fe121ef93de98216c9e2b24f8750fdee" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_hardware_interfaces" path="android/hardware/interfaces" remote="cdcbase_android" revision="36fdbc480a0c5cdd0e6840148d2ec4a79951456f" upstream="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_hardware_interfaces" path="android/hardware/interfaces" remote="cdcbase_android" revision="e3283ab427cc8d6750d6efb24b5b9da8100fedac" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,invensense,pdk" name="platform_hardware_invensense" path="android/hardware/invensense" revision="a51c32c7d16d32462fcd2d3fc61474bb0ec56864" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_libhardware" path="android/hardware/libhardware" revision="f4cb73d1b7345acd4fd2b11183aef62827b07943" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_hardware_libhardware_legacy" path="android/hardware/libhardware_legacy" revision="aa2ea20d8f26ff1f2c809432c0a48ceac8a67718" upstream="refs/tags/android-10.0.0_r20"/>
