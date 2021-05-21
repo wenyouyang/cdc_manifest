@@ -681,7 +681,7 @@
   <project groups="android,pdk" name="platform_system_nfc" path="android/system/nfc" revision="a581069b8f449f5e5d7804ac70fa4d9d57a2b94e" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_nvram" path="android/system/nvram" revision="0f6a0aa324ba9f6197f4f9b4a26c3db4fcd2935f" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_security" path="android/system/security" revision="f3082b0ac5cf8770efffac57dd7762233f29c92e" upstream="refs/tags/android-10.0.0_r20"/>
-  <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="36c8a4b780d3f9927196df6854ca39ad4f598c4a" upstream="cdc_base/10.0.0_r20"/>
+  <project groups="android,pdk" name="platform_system_sepolicy" path="android/system/sepolicy" remote="cdcbase_android" revision="3f374d869eb4cce248b508769d946fc22add76de" upstream="cdc_base/10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_server_configurable_flags" path="android/system/server_configurable_flags" revision="1d7caad900cb9cc24202d8aea5387a363135b2e1" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_testing_gtest_extras" path="android/system/testing/gtest_extras" revision="7eae4114c5b03eb4b991167a2eacabf021f50441" upstream="refs/tags/android-10.0.0_r20"/>
   <project groups="android,pdk" name="platform_system_timezone" path="android/system/timezone" revision="d2fe244e6f4c6163fe65f557e2ab302a9c2f76d7" upstream="refs/tags/android-10.0.0_r20"/>
