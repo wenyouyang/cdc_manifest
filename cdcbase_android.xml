@@ -9,7 +9,7 @@
   <default remote="aosp" revision="refs/tags/android-10.0.0_r20" sync-j="8"/>
   
   <project groups="android" name="Automotive_AHH3_v9_bl2-boot" path="android/tools/bl2-boot" remote="samsung" revision="7221e23d0fe6a26549a6781e82001f04cae316a5" upstream="exynosauto9_dev_200602"/>
-  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="8dd2f9c07350ecfcb5d74d852c6cb4330538b000" upstream="cdc_base/exynosauto9_dev_q_200602"/>
+  <project groups="android" name="Automotive_AHH3_v9_device_samsung_sadkHR80" path="android/device/samsung/sadkHR80" remote="cdcbase_android" revision="feature/CDC-0000-migo_dev" />
   <project groups="android" name="Automotive_AHH3_v9_device_samsung_sepolicy" path="android/device/samsung/sepolicy" remote="samsung" revision="eeb60cfb9f2322e9990101819039ef92119f104a" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,drm_hwcomposer,pdk-fs,q-fs-release" name="Automotive_AHH3_v9_platform_external_drm_hwcomposer" path="android/external/drm_hwcomposer" remote="samsung" revision="a79f2ad7712f2c6232033b5ba715d3ca660dedf6" upstream="exynosauto9_dev_q_200602"/>
   <project groups="android,pdk" name="Automotive_AHH3_v9_platform_external_libdrm" path="android/external/libdrm" remote="samsung" revision="66a2e956c033cab7ffe94ba50883f83820146433" upstream="exynosauto9_dev_q_200602"/>
